@@ -1,0 +1,68 @@
+{
+  "gemini-1.5-flash": {
+    "model": "gemini-1.5-flash",
+    "success": true,
+    "response": "```json\n[\n  {\n    \"title\": \"EcoBloom Summer Campaign\",\n    \"summary\": \"Planning and execution of the EcoBloom summer marketing campaign, including design, content, legal review, and deadlines.\",\n    \"message_count\": 14\n  },\n  {\n    \"title\": \"FitFusion Rebranding Project\",\n    \"summary\": \"Rebranding project for FitFusion, encompassing design, messaging, legal review, and deadlines.\",\n    \"message_count\": 18\n  },\n  {\n    \"title\": \"TechNova Product Launch\",\n    \"summary\": \"Marketing and design for TechNova's new smart home product launch, including messaging, legal review, and deadlines.\",\n    \"message_count\": 17\n  },\n  {\n    \"title\": \"GreenScape Sustainability Report\",\n    \"summary\": \"Creation of GreenScape's annual sustainability report, involving data visualization, design, and legal compliance.\",\n    \"message_count\": 8\n  }\n]\n```\n",
+    "parsed_topics": [
+      {
+        "title": "EcoBloom Summer Campaign",
+        "summary": "Planning and execution of the EcoBloom summer marketing campaign, including design, content, legal review, and deadlines.",
+        "message_count": 14
+      },
+      {
+        "title": "FitFusion Rebranding Project",
+        "summary": "Rebranding project for FitFusion, encompassing design, messaging, legal review, and deadlines.",
+        "message_count": 18
+      },
+      {
+        "title": "TechNova Product Launch",
+        "summary": "Marketing and design for TechNova's new smart home product launch, including messaging, legal review, and deadlines.",
+        "message_count": 17
+      },
+      {
+        "title": "GreenScape Sustainability Report",
+        "summary": "Creation of GreenScape's annual sustainability report, involving data visualization, design, and legal compliance.",
+        "message_count": 8
+      }
+    ],
+    "topics_count": 4,
+    "duration": 1.6850523948669434,
+    "messages_processed": 300
+  },
+  "gemini-1.5-pro": {
+    "model": "gemini-1.5-pro",
+    "success": true,
+    "response": "```json\n[\n  {\n    \"title\": \"EcoBloom Summer Campaign\",\n    \"summary\": \"Discussion and planning for the EcoBloom summer campaign, including design concepts, content strategy, contract review, and deadlines.\",\n    \"message_count\": 14\n  },\n  {\n    \"title\": \"FitFusion Rebranding Project\",\n    \"summary\": \"Discussion and planning for the FitFusion rebranding project, including brand research, messaging ideas, contract review, deadlines, and design development.\",\n    \"message_count\": 14\n  },\n  {\n    \"title\": \"TechNova New Product Launch\",\n    \"summary\": \"Discussion and planning for the TechNova new product launch, including target audience research, agreement review, design development, messaging framework, and legal review.\",\n    \"message_count\": 14\n  },\n  {\n    \"title\": \"GreenScape Sustainability Report\",\n    \"summary\": \"Discussion and planning for GreenScape's annual sustainability report, including client call, data visualization, design elements, and requirements review.\",\n    \"message_count\": 7\n  }\n]\n```\n",
+    "parsed_topics": [
+      {
+        "title": "EcoBloom Summer Campaign",
+        "summary": "Discussion and planning for the EcoBloom summer campaign, including design concepts, content strategy, contract review, and deadlines.",
+        "message_count": 14
+      },
+      {
+        "title": "FitFusion Rebranding Project",
+        "summary": "Discussion and planning for the FitFusion rebranding project, including brand research, messaging ideas, contract review, deadlines, and design development.",
+        "message_count": 14
+      },
+      {
+        "title": "TechNova New Product Launch",
+        "summary": "Discussion and planning for the TechNova new product launch, including target audience research, agreement review, design development, messaging framework, and legal review.",
+        "message_count": 14
+      },
+      {
+        "title": "GreenScape Sustainability Report",
+        "summary": "Discussion and planning for GreenScape's annual sustainability report, including client call, data visualization, design elements, and requirements review.",
+        "message_count": 7
+      }
+    ],
+    "topics_count": 4,
+    "duration": 3.3911566734313965,
+    "messages_processed": 300
+  },
+  "gemini-pro": {
+    "model": "gemini-pro",
+    "success": false,
+    "error": "ERROR: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "duration": 0.07840228080749512
+  }
+}

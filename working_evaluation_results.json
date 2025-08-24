@@ -1,0 +1,431 @@
+{
+  "openai_gpt-4": {
+    "provider": "openai",
+    "model": "gpt-4",
+    "response": "Error: Client.__init__() got an unexpected keyword argument 'proxies'",
+    "parsed_response": "Error: Client.__init__() got an unexpected keyword argument 'proxies'",
+    "json_valid": false,
+    "duration": 0.809171199798584,
+    "timestamp": 1755698124.8142827
+  },
+  "openai_gpt-3.5-turbo": {
+    "provider": "openai",
+    "model": "gpt-3.5-turbo",
+    "response": "Error: Client.__init__() got an unexpected keyword argument 'proxies'",
+    "parsed_response": "Error: Client.__init__() got an unexpected keyword argument 'proxies'",
+    "json_valid": false,
+    "duration": 0.00016379356384277344,
+    "timestamp": 1755698124.8148875
+  },
+  "openai_gpt-4o": {
+    "provider": "openai",
+    "model": "gpt-4o",
+    "response": "Error: Client.__init__() got an unexpected keyword argument 'proxies'",
+    "parsed_response": "Error: Client.__init__() got an unexpected keyword argument 'proxies'",
+    "json_valid": false,
+    "duration": 0.00013875961303710938,
+    "timestamp": 1755698124.8155982
+  },
+  "google_gemini-1.5-flash": {
+    "provider": "google",
+    "model": "gemini-1.5-flash",
+    "response": "```json\n[\n  {\n    \"summary\": \"EcoBloom Summer Campaign planning and scheduling.  Team members assigned tasks with deadlines to meet the July 28, 2025 deadline.\",\n    \"thread_ids\": [\n      \"thread_001\"\n    ],\n    \"participants\": [\n      \"Devon\",\n      \"Sam\",\n      \"Leah\",\n      \"Jordan\"\n    ],\n    \"actions\": [\n      {\n        \"description\": \"Prepare initial content for EcoBloom summer campaign\",\n        \"owner\": \"Leah\"\n      },\n      {\n        \"description\": \"Prepare initial design concepts for EcoBloom summer campaign\",\n        \"owner\": \"Sam\"\n      },\n      {\n        \"description\": \"Review EcoBloom contract terms and ensure adherence to deadlines.\",\n        \"owner\": \"Jordan\"\n      },\n      {\n        \"description\": \"Finalize content by June 30, 2025\",\n        \"owner\": \"Leah\"\n      },\n      {\n        \"description\": \"Complete designs by July 10, 2025\",\n        \"owner\": \"Sam\"\n      },\n      {\n        \"description\": \"Provide all marketing materials by July 7, 2025 for legal review\",\n        \"owner\": \"Jordan\"\n      }\n    ]\n  },\n  {\n    \"summary\": \"FitFusion rebranding project planning and scheduling. Team members assigned tasks with deadlines to meet the August 15, 2025 deadline.\",\n    \"thread_ids\": [\n      \"thread_002\"\n    ],\n    \"participants\": [\n      \"Devon\",\n      \"Sam\",\n      \"Leah\",\n      \"Jordan\"\n    ],\n    \"actions\": [\n      {\n        \"description\": \"Prepare initial messaging ideas for FitFusion rebrand\",\n        \"owner\": \"Leah\"\n      },\n      {\n        \"description\": \"Research FitFusion's current brand identity and competitors\",\n        \"owner\": \"Sam\"\n      },\n      {\n        \"description\": \"Review FitFusion contract\",\n        \"owner\": \"Jordan\"\n      },\n      {\n        \"description\": \"Brand messaging framework ready by July 2, 2025\",\n        \"owner\": \"Leah\"\n      },\n      {\n        \"description\": \"Logo designs and brand guidelines ready by July 30, 2025\",\n        \"owner\": \"Sam\"\n      },\n      {\n        \"description\": \"Provide all branding materials by July 30, 2025 for legal review\",\n        \"owner\": \"Jordan\"\n      }\n    ]\n  },\n  {\n    \"summary\": \"TechNova new product launch campaign planning and scheduling. Team members assigned tasks with deadlines to meet the September 10, 2025 deadline.\",\n    \"thread_ids\": [\n      \"thread_003\"\n    ],\n    \"participants\": [\n      \"Devon\",\n      \"Sam\",\n      \"Leah\",\n      \"Jordan\"\n    ],\n    \"actions\": [\n      {\n        \"description\": \"Prepare ideas for TechNova product launch\",\n        \"owner\": \"Sam\"\n      },\n      {\n        \"description\": \"Research target audience and competitors for TechNova launch\",\n        \"owner\": \"Leah\"\n      },\n      {\n        \"description\": \"Review TechNova agreement\",\n        \"owner\": \"Jordan\"\n      },\n      {\n        \"description\": \"Product messaging framework ready by July 22, 2025\",\n        \"owner\": \"Leah\"\n      },\n      {\n        \"description\": \"Product packaging and promotional materials ready by August 26, 2025\",\n        \"owner\": \"Sam\"\n      },\n      {\n        \"description\": \"Provide all marketing materials by August 26, 2025 for legal review\",\n        \"owner\": \"Jordan\"\n      }\n    ]\n  },\n  {\n    \"summary\": \"GreenScape sustainability report project.  Team members assigned tasks with a deadline of August 30, 2025.\",\n    \"thread_ids\": [\n      \"thread_004\"\n    ],\n    \"participants\": [\n      \"Devon\",\n      \"Leah\",\n      \"Sam\",\n      \"Jordan\"\n    ],\n    \"actions\": [\n      {\n        \"description\": \"Prepare questions for GreenScape client call and research previous reports\",\n        \"owner\": \"Leah\"\n      },\n      {\n        \"description\": \"Help with data visualization and design elements for GreenScape's sustainability report\",\n        \"owner\": \"Sam\"\n      },\n      {\n        \"description\": \"Review GreenScape's sustainability reporting requirements\",\n        \"owner\": \"Jordan\"\n      },\n      {\n        \"description\": \"Draft content for GreenScape report by July 5, 2025\",\n        \"owner\": \"Leah\"\n      },\n      {\n        \"description\": \"Complete design and data visualization for GreenScape report by August 10, 2025\",\n        \"owner\": \"Sam\"\n      }\n    ]\n  }\n]\n```\n",
+    "parsed_response": [
+      {
+        "summary": "EcoBloom Summer Campaign planning and scheduling.  Team members assigned tasks with deadlines to meet the July 28, 2025 deadline.",
+        "thread_ids": [
+          "thread_001"
+        ],
+        "participants": [
+          "Devon",
+          "Sam",
+          "Leah",
+          "Jordan"
+        ],
+        "actions": [
+          {
+            "description": "Prepare initial content for EcoBloom summer campaign",
+            "owner": "Leah"
+          },
+          {
+            "description": "Prepare initial design concepts for EcoBloom summer campaign",
+            "owner": "Sam"
+          },
+          {
+            "description": "Review EcoBloom contract terms and ensure adherence to deadlines.",
+            "owner": "Jordan"
+          },
+          {
+            "description": "Finalize content by June 30, 2025",
+            "owner": "Leah"
+          },
+          {
+            "description": "Complete designs by July 10, 2025",
+            "owner": "Sam"
+          },
+          {
+            "description": "Provide all marketing materials by July 7, 2025 for legal review",
+            "owner": "Jordan"
+          }
+        ]
+      },
+      {
+        "summary": "FitFusion rebranding project planning and scheduling. Team members assigned tasks with deadlines to meet the August 15, 2025 deadline.",
+        "thread_ids": [
+          "thread_002"
+        ],
+        "participants": [
+          "Devon",
+          "Sam",
+          "Leah",
+          "Jordan"
+        ],
+        "actions": [
+          {
+            "description": "Prepare initial messaging ideas for FitFusion rebrand",
+            "owner": "Leah"
+          },
+          {
+            "description": "Research FitFusion's current brand identity and competitors",
+            "owner": "Sam"
+          },
+          {
+            "description": "Review FitFusion contract",
+            "owner": "Jordan"
+          },
+          {
+            "description": "Brand messaging framework ready by July 2, 2025",
+            "owner": "Leah"
+          },
+          {
+            "description": "Logo designs and brand guidelines ready by July 30, 2025",
+            "owner": "Sam"
+          },
+          {
+            "description": "Provide all branding materials by July 30, 2025 for legal review",
+            "owner": "Jordan"
+          }
+        ]
+      },
+      {
+        "summary": "TechNova new product launch campaign planning and scheduling. Team members assigned tasks with deadlines to meet the September 10, 2025 deadline.",
+        "thread_ids": [
+          "thread_003"
+        ],
+        "participants": [
+          "Devon",
+          "Sam",
+          "Leah",
+          "Jordan"
+        ],
+        "actions": [
+          {
+            "description": "Prepare ideas for TechNova product launch",
+            "owner": "Sam"
+          },
+          {
+            "description": "Research target audience and competitors for TechNova launch",
+            "owner": "Leah"
+          },
+          {
+            "description": "Review TechNova agreement",
+            "owner": "Jordan"
+          },
+          {
+            "description": "Product messaging framework ready by July 22, 2025",
+            "owner": "Leah"
+          },
+          {
+            "description": "Product packaging and promotional materials ready by August 26, 2025",
+            "owner": "Sam"
+          },
+          {
+            "description": "Provide all marketing materials by August 26, 2025 for legal review",
+            "owner": "Jordan"
+          }
+        ]
+      },
+      {
+        "summary": "GreenScape sustainability report project.  Team members assigned tasks with a deadline of August 30, 2025.",
+        "thread_ids": [
+          "thread_004"
+        ],
+        "participants": [
+          "Devon",
+          "Leah",
+          "Sam",
+          "Jordan"
+        ],
+        "actions": [
+          {
+            "description": "Prepare questions for GreenScape client call and research previous reports",
+            "owner": "Leah"
+          },
+          {
+            "description": "Help with data visualization and design elements for GreenScape's sustainability report",
+            "owner": "Sam"
+          },
+          {
+            "description": "Review GreenScape's sustainability reporting requirements",
+            "owner": "Jordan"
+          },
+          {
+            "description": "Draft content for GreenScape report by July 5, 2025",
+            "owner": "Leah"
+          },
+          {
+            "description": "Complete design and data visualization for GreenScape report by August 10, 2025",
+            "owner": "Sam"
+          }
+        ]
+      }
+    ],
+    "json_valid": true,
+    "duration": 8.96818733215332,
+    "timestamp": 1755698133.7841885
+  },
+  "google_gemini-1.5-pro": {
+    "provider": "google",
+    "model": "gemini-1.5-pro",
+    "response": "```json\n[\n  {\n    \"summary\": \"EcoBloom summer campaign planning and execution. Kickoff meeting held, deliverables assigned, and deadlines established. Content due June 30, designs due July 10 for client review by July 14 and final deadline July 28.\",\n    \"thread_ids\": [\"thread_001\"],\n    \"participants\": [\"Devon\", \"Sam\", \"Leah\", \"Jordan\"],\n    \"actions\": [\n      {\"description\": \"Provide initial content by June 30, 2025\", \"owner\": \"Leah\"},\n      {\"description\": \"Provide initial designs by June 25, 2025\", \"owner\": \"Sam\"},\n      {\"description\": \"Provide final designs by July 10, 2025\", \"owner\": \"Sam\"},\n      {\"description\": \"Complete legal review of marketing materials by July 14, 2025\", \"owner\": \"Jordan\"},\n      {\"description\": \"Deliver all marketing materials by July 7, 2025\", \"owner\": \"team\"}\n    ]\n  },\n  {\n    \"summary\": \"FitFusion rebranding project kickoff and planning.  Deadlines and deliverables discussed. Content due July 2, designs due July 5 for legal review by July 30, and final deadline August 15.\",\n    \"thread_ids\": [\"thread_002\"],\n    \"participants\": [\"Devon\", \"Sam\", \"Leah\", \"Jordan\"],\n    \"actions\": [\n      {\"description\": \"Provide brand messaging framework by July 2, 2025\", \"owner\": \"Leah\"},\n      {\"description\": \"Provide initial designs by July 5, 2025\", \"owner\": \"Sam\"},\n      {\"description\": \"Provide at least 3 logo variations by July 30, 2025\", \"owner\": \"Sam\"},      \n      {\"description\": \"Complete legal review of branding materials by August 7, 2025\", \"owner\": \"Jordan\"},\n      {\"description\": \"Deliver all branding materials by July 30, 2025\", \"owner\": \"team\"},\n      {\"description\": \"Provide brand voice guidelines by June 26, 2025\", \"owner\": \"Leah\"}\n\n    ]\n  },\n  {\n    \"summary\": \"TechNova new product launch campaign planning. Initial discussions and deadlines set. Product messaging due July 8, designs due August 5 for legal review by August 26, and final deadline September 10.\",\n    \"thread_ids\": [\"thread_003\"],\n    \"participants\": [\"Devon\", \"Sam\", \"Leah\", \"Jordan\"],\n    \"actions\": [\n      {\"description\": \"Provide product messaging framework by July 22, 2025\", \"owner\": \"Leah\"},\n      {\"description\": \"Provide initial designs by August 5, 2025\", \"owner\": \"Sam\"},\n      {\"description\": \"Deliver product packaging and promotional materials by August 26, 2025\", \"owner\": \"Sam\"},\n      {\"description\": \"Complete legal review of marketing materials by September 2, 2025\", \"owner\": \"Jordan\"},\n      {\"description\": \"Deliver all marketing materials by August 26, 2025\", \"owner\": \"team\"},\n      {\"description\": \"Provide product description and key messaging points by July 8, 2025\", \"owner\": \"Leah\"}\n    ]\n  },\n  {\n    \"summary\": \"GreenScape annual sustainability report project kickoff and planning. Data received, content due July 5, design due August 10, and final deadline August 30.\",\n    \"thread_ids\": [\"thread_004\"],\n    \"participants\": [\"Devon\", \"Sam\", \"Leah\", \"Jordan\"],\n    \"actions\": [\n      {\"description\": \"Prepare questions for GreenScape client call\", \"owner\": \"Leah\"},\n      {\"description\": \"Research GreenScape's previous reports\", \"owner\": \"Leah\"},\n      {\"description\": \"Start drafting the report content by July 5, 2025\", \"owner\": \"Leah\"},\n      {\"description\": \"Complete the design and data visualization by August 10, 2025\", \"owner\": \"Sam\"},\n      {\"description\": \"Review GreenScape's sustainability reporting requirements\", \"owner\": \"Jordan\"}\n    ]\n  }\n]\n```\n",
+    "parsed_response": [
+      {
+        "summary": "EcoBloom summer campaign planning and execution. Kickoff meeting held, deliverables assigned, and deadlines established. Content due June 30, designs due July 10 for client review by July 14 and final deadline July 28.",
+        "thread_ids": [
+          "thread_001"
+        ],
+        "participants": [
+          "Devon",
+          "Sam",
+          "Leah",
+          "Jordan"
+        ],
+        "actions": [
+          {
+            "description": "Provide initial content by June 30, 2025",
+            "owner": "Leah"
+          },
+          {
+            "description": "Provide initial designs by June 25, 2025",
+            "owner": "Sam"
+          },
+          {
+            "description": "Provide final designs by July 10, 2025",
+            "owner": "Sam"
+          },
+          {
+            "description": "Complete legal review of marketing materials by July 14, 2025",
+            "owner": "Jordan"
+          },
+          {
+            "description": "Deliver all marketing materials by July 7, 2025",
+            "owner": "team"
+          }
+        ]
+      },
+      {
+        "summary": "FitFusion rebranding project kickoff and planning.  Deadlines and deliverables discussed. Content due July 2, designs due July 5 for legal review by July 30, and final deadline August 15.",
+        "thread_ids": [
+          "thread_002"
+        ],
+        "participants": [
+          "Devon",
+          "Sam",
+          "Leah",
+          "Jordan"
+        ],
+        "actions": [
+          {
+            "description": "Provide brand messaging framework by July 2, 2025",
+            "owner": "Leah"
+          },
+          {
+            "description": "Provide initial designs by July 5, 2025",
+            "owner": "Sam"
+          },
+          {
+            "description": "Provide at least 3 logo variations by July 30, 2025",
+            "owner": "Sam"
+          },
+          {
+            "description": "Complete legal review of branding materials by August 7, 2025",
+            "owner": "Jordan"
+          },
+          {
+            "description": "Deliver all branding materials by July 30, 2025",
+            "owner": "team"
+          },
+          {
+            "description": "Provide brand voice guidelines by June 26, 2025",
+            "owner": "Leah"
+          }
+        ]
+      },
+      {
+        "summary": "TechNova new product launch campaign planning. Initial discussions and deadlines set. Product messaging due July 8, designs due August 5 for legal review by August 26, and final deadline September 10.",
+        "thread_ids": [
+          "thread_003"
+        ],
+        "participants": [
+          "Devon",
+          "Sam",
+          "Leah",
+          "Jordan"
+        ],
+        "actions": [
+          {
+            "description": "Provide product messaging framework by July 22, 2025",
+            "owner": "Leah"
+          },
+          {
+            "description": "Provide initial designs by August 5, 2025",
+            "owner": "Sam"
+          },
+          {
+            "description": "Deliver product packaging and promotional materials by August 26, 2025",
+            "owner": "Sam"
+          },
+          {
+            "description": "Complete legal review of marketing materials by September 2, 2025",
+            "owner": "Jordan"
+          },
+          {
+            "description": "Deliver all marketing materials by August 26, 2025",
+            "owner": "team"
+          },
+          {
+            "description": "Provide product description and key messaging points by July 8, 2025",
+            "owner": "Leah"
+          }
+        ]
+      },
+      {
+        "summary": "GreenScape annual sustainability report project kickoff and planning. Data received, content due July 5, design due August 10, and final deadline August 30.",
+        "thread_ids": [
+          "thread_004"
+        ],
+        "participants": [
+          "Devon",
+          "Sam",
+          "Leah",
+          "Jordan"
+        ],
+        "actions": [
+          {
+            "description": "Prepare questions for GreenScape client call",
+            "owner": "Leah"
+          },
+          {
+            "description": "Research GreenScape's previous reports",
+            "owner": "Leah"
+          },
+          {
+            "description": "Start drafting the report content by July 5, 2025",
+            "owner": "Leah"
+          },
+          {
+            "description": "Complete the design and data visualization by August 10, 2025",
+            "owner": "Sam"
+          },
+          {
+            "description": "Review GreenScape's sustainability reporting requirements",
+            "owner": "Jordan"
+          }
+        ]
+      }
+    ],
+    "json_valid": true,
+    "duration": 14.714868545532227,
+    "timestamp": 1755698148.5003104
+  },
+  "groq_llama3-8b-8192": {
+    "provider": "groq",
+    "model": "llama3-8b-8192",
+    "response": "Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+    "parsed_response": "Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+    "json_valid": false,
+    "duration": 0.3655567169189453,
+    "timestamp": 1755698148.866661
+  },
+  "groq_llama3-70b-8192": {
+    "provider": "groq",
+    "model": "llama3-70b-8192",
+    "response": "Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+    "parsed_response": "Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+    "json_valid": false,
+    "duration": 0.11315631866455078,
+    "timestamp": 1755698148.98018
+  },
+  "groq_mixtral-8x7b-32768": {
+    "provider": "groq",
+    "model": "mixtral-8x7b-32768",
+    "response": "Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+    "parsed_response": "Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+    "json_valid": false,
+    "duration": 0.23176956176757812,
+    "timestamp": 1755698149.2143176
+  },
+  "anthropic_claude-3-opus-20240229": {
+    "provider": "anthropic",
+    "model": "claude-3-opus-20240229",
+    "response": "Error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CSK5QBkqYA1vWSbd6Ti9e'}",
+    "parsed_response": "Error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CSK5QBkqYA1vWSbd6Ti9e'}",
+    "json_valid": false,
+    "duration": 0.38792872428894043,
+    "timestamp": 1755698149.6026266
+  },
+  "anthropic_claude-3-sonnet-20240229": {
+    "provider": "anthropic",
+    "model": "claude-3-sonnet-20240229",
+    "response": "Error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CSK5QCr56aWCbrixsFGo6'}",
+    "parsed_response": "Error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CSK5QCr56aWCbrixsFGo6'}",
+    "json_valid": false,
+    "duration": 0.26172900199890137,
+    "timestamp": 1755698149.8647451
+  },
+  "anthropic_claude-3-haiku-20240307": {
+    "provider": "anthropic",
+    "model": "claude-3-haiku-20240307",
+    "response": "Error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CSK5QDcxL8NXbY9Lj4qDD'}",
+    "parsed_response": "Error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CSK5QDcxL8NXbY9Lj4qDD'}",
+    "json_valid": false,
+    "duration": 0.17700552940368652,
+    "timestamp": 1755698150.0421596
+  },
+  "gemma_gemma-2b": {
+    "provider": "gemma",
+    "model": "gemma-2b",
+    "response": "Error: You are trying to access a gated repo.\nMake sure to have access to it at https://huggingface.co/google/gemma-2b.\n401 Client Error. (Request ID: Root=1-68a5d3eb-4b3977876c28f20965528252;9d4aa45e-ce47-406b-8857-16706ecd7ab0)\n\nCannot access gated repo for url https://huggingface.co/google/gemma-2b/resolve/main/config.json.\nAccess to model google/gemma-2b is restricted. You must have access to it and be authenticated to access it. Please log in.",
+    "parsed_response": "Error: You are trying to access a gated repo.\nMake sure to have access to it at https://huggingface.co/google/gemma-2b.\n401 Client Error. (Request ID: Root=1-68a5d3eb-4b3977876c28f20965528252;9d4aa45e-ce47-406b-8857-16706ecd7ab0)\n\nCannot access gated repo for url https://huggingface.co/google/gemma-2b/resolve/main/config.json.\nAccess to model google/gemma-2b is restricted. You must have access to it and be authenticated to access it. Please log in.",
+    "json_valid": false,
+    "duration": 5.8573691844940186,
+    "timestamp": 1755698155.8998952
+  },
+  "gemma_gemma-7b": {
+    "provider": "gemma",
+    "model": "gemma-7b",
+    "response": "Error: You are trying to access a gated repo.\nMake sure to have access to it at https://huggingface.co/google/gemma-7b.\n401 Client Error. (Request ID: Root=1-68a5d3ec-0153b82403786477370d2447;7e3bc6e2-35a2-4841-a02a-02650426aac5)\n\nCannot access gated repo for url https://huggingface.co/google/gemma-7b/resolve/main/config.json.\nAccess to model google/gemma-7b is restricted. You must have access to it and be authenticated to access it. Please log in.",
+    "parsed_response": "Error: You are trying to access a gated repo.\nMake sure to have access to it at https://huggingface.co/google/gemma-7b.\n401 Client Error. (Request ID: Root=1-68a5d3ec-0153b82403786477370d2447;7e3bc6e2-35a2-4841-a02a-02650426aac5)\n\nCannot access gated repo for url https://huggingface.co/google/gemma-7b/resolve/main/config.json.\nAccess to model google/gemma-7b is restricted. You must have access to it and be authenticated to access it. Please log in.",
+    "json_valid": false,
+    "duration": 0.16036653518676758,
+    "timestamp": 1755698156.0611897
+  },
+  "gemma_gemma-2b-it": {
+    "provider": "gemma",
+    "model": "gemma-2b-it",
+    "response": "Error: You are trying to access a gated repo.\nMake sure to have access to it at https://huggingface.co/google/gemma-2b-it.\n401 Client Error. (Request ID: Root=1-68a5d3ec-72e1c6860d22816d0bda1b9b;7b981ba2-247e-4e7b-85c3-3670c3027351)\n\nCannot access gated repo for url https://huggingface.co/google/gemma-2b-it/resolve/main/config.json.\nAccess to model google/gemma-2b-it is restricted. You must have access to it and be authenticated to access it. Please log in.",
+    "parsed_response": "Error: You are trying to access a gated repo.\nMake sure to have access to it at https://huggingface.co/google/gemma-2b-it.\n401 Client Error. (Request ID: Root=1-68a5d3ec-72e1c6860d22816d0bda1b9b;7b981ba2-247e-4e7b-85c3-3670c3027351)\n\nCannot access gated repo for url https://huggingface.co/google/gemma-2b-it/resolve/main/config.json.\nAccess to model google/gemma-2b-it is restricted. You must have access to it and be authenticated to access it. Please log in.",
+    "json_valid": false,
+    "duration": 0.15916991233825684,
+    "timestamp": 1755698156.2214983
+  },
+  "gemma_gemma-7b-it": {
+    "provider": "gemma",
+    "model": "gemma-7b-it",
+    "response": "Error: You are trying to access a gated repo.\nMake sure to have access to it at https://huggingface.co/google/gemma-7b-it.\n401 Client Error. (Request ID: Root=1-68a5d3ec-290f28770d5e52e379d275bd;c2c9ca7e-71d0-4f52-b562-1651b42f40ba)\n\nCannot access gated repo for url https://huggingface.co/google/gemma-7b-it/resolve/main/config.json.\nAccess to model google/gemma-7b-it is restricted. You must have access to it and be authenticated to access it. Please log in.",
+    "parsed_response": "Error: You are trying to access a gated repo.\nMake sure to have access to it at https://huggingface.co/google/gemma-7b-it.\n401 Client Error. (Request ID: Root=1-68a5d3ec-290f28770d5e52e379d275bd;c2c9ca7e-71d0-4f52-b562-1651b42f40ba)\n\nCannot access gated repo for url https://huggingface.co/google/gemma-7b-it/resolve/main/config.json.\nAccess to model google/gemma-7b-it is restricted. You must have access to it and be authenticated to access it. Please log in.",
+    "json_valid": false,
+    "duration": 0.1588139533996582,
+    "timestamp": 1755698156.380702
+  }
+}

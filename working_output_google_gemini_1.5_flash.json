@@ -1,0 +1,158 @@
+{
+  "provider": "google",
+  "model": "gemini-1.5-flash",
+  "response": "```json\n[\n  {\n    \"summary\": \"EcoBloom Summer Campaign planning and scheduling.  Team members assigned tasks with deadlines to meet the July 28, 2025 deadline.\",\n    \"thread_ids\": [\n      \"thread_001\"\n    ],\n    \"participants\": [\n      \"Devon\",\n      \"Sam\",\n      \"Leah\",\n      \"Jordan\"\n    ],\n    \"actions\": [\n      {\n        \"description\": \"Prepare initial content for EcoBloom summer campaign\",\n        \"owner\": \"Leah\"\n      },\n      {\n        \"description\": \"Prepare initial design concepts for EcoBloom summer campaign\",\n        \"owner\": \"Sam\"\n      },\n      {\n        \"description\": \"Review EcoBloom contract terms and ensure adherence to deadlines.\",\n        \"owner\": \"Jordan\"\n      },\n      {\n        \"description\": \"Finalize content by June 30, 2025\",\n        \"owner\": \"Leah\"\n      },\n      {\n        \"description\": \"Complete designs by July 10, 2025\",\n        \"owner\": \"Sam\"\n      },\n      {\n        \"description\": \"Provide all marketing materials by July 7, 2025 for legal review\",\n        \"owner\": \"Jordan\"\n      }\n    ]\n  },\n  {\n    \"summary\": \"FitFusion rebranding project planning and scheduling. Team members assigned tasks with deadlines to meet the August 15, 2025 deadline.\",\n    \"thread_ids\": [\n      \"thread_002\"\n    ],\n    \"participants\": [\n      \"Devon\",\n      \"Sam\",\n      \"Leah\",\n      \"Jordan\"\n    ],\n    \"actions\": [\n      {\n        \"description\": \"Prepare initial messaging ideas for FitFusion rebrand\",\n        \"owner\": \"Leah\"\n      },\n      {\n        \"description\": \"Research FitFusion's current brand identity and competitors\",\n        \"owner\": \"Sam\"\n      },\n      {\n        \"description\": \"Review FitFusion contract\",\n        \"owner\": \"Jordan\"\n      },\n      {\n        \"description\": \"Brand messaging framework ready by July 2, 2025\",\n        \"owner\": \"Leah\"\n      },\n      {\n        \"description\": \"Logo designs and brand guidelines ready by July 30, 2025\",\n        \"owner\": \"Sam\"\n      },\n      {\n        \"description\": \"Provide all branding materials by July 30, 2025 for legal review\",\n        \"owner\": \"Jordan\"\n      }\n    ]\n  },\n  {\n    \"summary\": \"TechNova new product launch campaign planning and scheduling. Team members assigned tasks with deadlines to meet the September 10, 2025 deadline.\",\n    \"thread_ids\": [\n      \"thread_003\"\n    ],\n    \"participants\": [\n      \"Devon\",\n      \"Sam\",\n      \"Leah\",\n      \"Jordan\"\n    ],\n    \"actions\": [\n      {\n        \"description\": \"Prepare ideas for TechNova product launch\",\n        \"owner\": \"Sam\"\n      },\n      {\n        \"description\": \"Research target audience and competitors for TechNova launch\",\n        \"owner\": \"Leah\"\n      },\n      {\n        \"description\": \"Review TechNova agreement\",\n        \"owner\": \"Jordan\"\n      },\n      {\n        \"description\": \"Product messaging framework ready by July 22, 2025\",\n        \"owner\": \"Leah\"\n      },\n      {\n        \"description\": \"Product packaging and promotional materials ready by August 26, 2025\",\n        \"owner\": \"Sam\"\n      },\n      {\n        \"description\": \"Provide all marketing materials by August 26, 2025 for legal review\",\n        \"owner\": \"Jordan\"\n      }\n    ]\n  },\n  {\n    \"summary\": \"GreenScape sustainability report project.  Team members assigned tasks with a deadline of August 30, 2025.\",\n    \"thread_ids\": [\n      \"thread_004\"\n    ],\n    \"participants\": [\n      \"Devon\",\n      \"Leah\",\n      \"Sam\",\n      \"Jordan\"\n    ],\n    \"actions\": [\n      {\n        \"description\": \"Prepare questions for GreenScape client call and research previous reports\",\n        \"owner\": \"Leah\"\n      },\n      {\n        \"description\": \"Help with data visualization and design elements for GreenScape's sustainability report\",\n        \"owner\": \"Sam\"\n      },\n      {\n        \"description\": \"Review GreenScape's sustainability reporting requirements\",\n        \"owner\": \"Jordan\"\n      },\n      {\n        \"description\": \"Draft content for GreenScape report by July 5, 2025\",\n        \"owner\": \"Leah\"\n      },\n      {\n        \"description\": \"Complete design and data visualization for GreenScape report by August 10, 2025\",\n        \"owner\": \"Sam\"\n      }\n    ]\n  }\n]\n```\n",
+  "parsed_response": [
+    {
+      "summary": "EcoBloom Summer Campaign planning and scheduling.  Team members assigned tasks with deadlines to meet the July 28, 2025 deadline.",
+      "thread_ids": [
+        "thread_001"
+      ],
+      "participants": [
+        "Devon",
+        "Sam",
+        "Leah",
+        "Jordan"
+      ],
+      "actions": [
+        {
+          "description": "Prepare initial content for EcoBloom summer campaign",
+          "owner": "Leah"
+        },
+        {
+          "description": "Prepare initial design concepts for EcoBloom summer campaign",
+          "owner": "Sam"
+        },
+        {
+          "description": "Review EcoBloom contract terms and ensure adherence to deadlines.",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Finalize content by June 30, 2025",
+          "owner": "Leah"
+        },
+        {
+          "description": "Complete designs by July 10, 2025",
+          "owner": "Sam"
+        },
+        {
+          "description": "Provide all marketing materials by July 7, 2025 for legal review",
+          "owner": "Jordan"
+        }
+      ]
+    },
+    {
+      "summary": "FitFusion rebranding project planning and scheduling. Team members assigned tasks with deadlines to meet the August 15, 2025 deadline.",
+      "thread_ids": [
+        "thread_002"
+      ],
+      "participants": [
+        "Devon",
+        "Sam",
+        "Leah",
+        "Jordan"
+      ],
+      "actions": [
+        {
+          "description": "Prepare initial messaging ideas for FitFusion rebrand",
+          "owner": "Leah"
+        },
+        {
+          "description": "Research FitFusion's current brand identity and competitors",
+          "owner": "Sam"
+        },
+        {
+          "description": "Review FitFusion contract",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Brand messaging framework ready by July 2, 2025",
+          "owner": "Leah"
+        },
+        {
+          "description": "Logo designs and brand guidelines ready by July 30, 2025",
+          "owner": "Sam"
+        },
+        {
+          "description": "Provide all branding materials by July 30, 2025 for legal review",
+          "owner": "Jordan"
+        }
+      ]
+    },
+    {
+      "summary": "TechNova new product launch campaign planning and scheduling. Team members assigned tasks with deadlines to meet the September 10, 2025 deadline.",
+      "thread_ids": [
+        "thread_003"
+      ],
+      "participants": [
+        "Devon",
+        "Sam",
+        "Leah",
+        "Jordan"
+      ],
+      "actions": [
+        {
+          "description": "Prepare ideas for TechNova product launch",
+          "owner": "Sam"
+        },
+        {
+          "description": "Research target audience and competitors for TechNova launch",
+          "owner": "Leah"
+        },
+        {
+          "description": "Review TechNova agreement",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Product messaging framework ready by July 22, 2025",
+          "owner": "Leah"
+        },
+        {
+          "description": "Product packaging and promotional materials ready by August 26, 2025",
+          "owner": "Sam"
+        },
+        {
+          "description": "Provide all marketing materials by August 26, 2025 for legal review",
+          "owner": "Jordan"
+        }
+      ]
+    },
+    {
+      "summary": "GreenScape sustainability report project.  Team members assigned tasks with a deadline of August 30, 2025.",
+      "thread_ids": [
+        "thread_004"
+      ],
+      "participants": [
+        "Devon",
+        "Leah",
+        "Sam",
+        "Jordan"
+      ],
+      "actions": [
+        {
+          "description": "Prepare questions for GreenScape client call and research previous reports",
+          "owner": "Leah"
+        },
+        {
+          "description": "Help with data visualization and design elements for GreenScape's sustainability report",
+          "owner": "Sam"
+        },
+        {
+          "description": "Review GreenScape's sustainability reporting requirements",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Draft content for GreenScape report by July 5, 2025",
+          "owner": "Leah"
+        },
+        {
+          "description": "Complete design and data visualization for GreenScape report by August 10, 2025",
+          "owner": "Sam"
+        }
+      ]
+    }
+  ],
+  "json_valid": true,
+  "duration": 8.96818733215332,
+  "timestamp": 1755698133.7841885
+}

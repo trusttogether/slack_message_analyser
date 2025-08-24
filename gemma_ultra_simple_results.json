@@ -1,0 +1,14 @@
+{
+  "gemma:2b": {
+    "model": "gemma:2b",
+    "success": false,
+    "error": "TIMEOUT",
+    "duration": 20.023498058319092
+  },
+  "gemma:2b-instruct": {
+    "model": "gemma:2b-instruct",
+    "success": false,
+    "error": "TIMEOUT",
+    "duration": 20.02280616760254
+  }
+}

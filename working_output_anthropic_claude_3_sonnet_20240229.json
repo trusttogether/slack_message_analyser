@@ -1,0 +1,9 @@
+{
+  "provider": "anthropic",
+  "model": "claude-3-sonnet-20240229",
+  "response": "Error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CSK5QCr56aWCbrixsFGo6'}",
+  "parsed_response": "Error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CSK5QCr56aWCbrixsFGo6'}",
+  "json_valid": false,
+  "duration": 0.26172900199890137,
+  "timestamp": 1755698149.8647451
+}

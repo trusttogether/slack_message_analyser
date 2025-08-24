@@ -1,0 +1,28 @@
+{
+  "gemma:2b": {
+    "model": "gemma:2b",
+    "success": true,
+    "response": "Sure, here are the main topics in the messages:\n\n- Kicko\n- Init\n- Content\n- EcoBloom",
+    "parsed_topics": [
+      "Sure, here are the main topics in the messages:",
+      "- Kicko",
+      "- Init"
+    ],
+    "topics_count": 3,
+    "duration": 18.19433331489563,
+    "messages_processed": 5
+  },
+  "gemma:2b-instruct": {
+    "model": "gemma:2b-instruct",
+    "success": true,
+    "response": "- Team communication\n- Project planning\n- Content creation\n- EcoBloom review",
+    "parsed_topics": [
+      "- Team communication",
+      "- Project planning",
+      "- Content creation"
+    ],
+    "topics_count": 3,
+    "duration": 12.82020616531372,
+    "messages_processed": 5
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "provider": "gemini",
+  "model": "gemini-pro",
+  "response": "{\"topics\": [{\"summary\": \"Campaign Planning and Timeline Discussion\", \"thread_ids\": [1, 2, 3, 4, 5, 6], \"participants\": [\"@Devon\", \"@Sam\", \"@Leah\", \"@Jordan\"], \"actions\": [{\"description\": \"Design review\", \"owner\": \"@Sam\"}, {\"description\": \"Content creation\", \"owner\": \"@Leah\"}]}]}",
+  "parsed_response": {
+    "topics": [
+      {
+        "summary": "Campaign Planning and Timeline Discussion",
+        "thread_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Leah",
+          "@Jordan"
+        ],
+        "actions": [
+          {
+            "description": "Design review",
+            "owner": "@Sam"
+          },
+          {
+            "description": "Content creation",
+            "owner": "@Leah"
+          }
+        ]
+      }
+    ]
+  },
+  "json_valid": true,
+  "duration": 0.10030007362365723,
+  "timestamp": 1755652548.1953077
+}

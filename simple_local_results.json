@@ -1,0 +1,143 @@
+{
+  "local_simple-gpt2": {
+    "provider": "local",
+    "model": "simple-gpt2",
+    "response": "[\n  {\n    \"summary\": \"Local model simple-gpt2 analysis - Project coordination and planning\",\n    \"thread_ids\": [\n      \"thread_001\",\n      \"thread_002\",\n      \"thread_003\",\n      \"thread_004\"\n    ],\n    \"participants\": [\n      \"Devon\",\n      \"Sam\",\n      \"Leah\",\n      \"Jordan\"\n    ],\n    \"actions\": [\n      {\n        \"description\": \"Prepare project kickoff materials\",\n        \"owner\": \"team\"\n      },\n      {\n        \"description\": \"Review project requirements and deadlines\",\n        \"owner\": \"Jordan\"\n      },\n      {\n        \"description\": \"Create initial design concepts\",\n        \"owner\": \"Sam\"\n      },\n      {\n        \"description\": \"Draft content strategy and messaging\",\n        \"owner\": \"Leah\"\n      },\n      {\n        \"description\": \"Ensure all deliverables meet deadlines\",\n        \"owner\": \"Devon\"\n      }\n    ]\n  }\n]",
+    "parsed_response": [
+      {
+        "summary": "Local model simple-gpt2 analysis - Project coordination and planning",
+        "thread_ids": [
+          "thread_001",
+          "thread_002",
+          "thread_003",
+          "thread_004"
+        ],
+        "participants": [
+          "Devon",
+          "Sam",
+          "Leah",
+          "Jordan"
+        ],
+        "actions": [
+          {
+            "description": "Prepare project kickoff materials",
+            "owner": "team"
+          },
+          {
+            "description": "Review project requirements and deadlines",
+            "owner": "Jordan"
+          },
+          {
+            "description": "Create initial design concepts",
+            "owner": "Sam"
+          },
+          {
+            "description": "Draft content strategy and messaging",
+            "owner": "Leah"
+          },
+          {
+            "description": "Ensure all deliverables meet deadlines",
+            "owner": "Devon"
+          }
+        ]
+      }
+    ],
+    "json_valid": true,
+    "duration": 2.0022482872009277,
+    "timestamp": 1755702415.8249662
+  },
+  "local_simple-distilgpt2": {
+    "provider": "local",
+    "model": "simple-distilgpt2",
+    "response": "[\n  {\n    \"summary\": \"Local model simple-distilgpt2 analysis - Project coordination and planning\",\n    \"thread_ids\": [\n      \"thread_001\",\n      \"thread_002\",\n      \"thread_003\",\n      \"thread_004\"\n    ],\n    \"participants\": [\n      \"Devon\",\n      \"Sam\",\n      \"Leah\",\n      \"Jordan\"\n    ],\n    \"actions\": [\n      {\n        \"description\": \"Prepare project kickoff materials\",\n        \"owner\": \"team\"\n      },\n      {\n        \"description\": \"Review project requirements and deadlines\",\n        \"owner\": \"Jordan\"\n      },\n      {\n        \"description\": \"Create initial design concepts\",\n        \"owner\": \"Sam\"\n      },\n      {\n        \"description\": \"Draft content strategy and messaging\",\n        \"owner\": \"Leah\"\n      },\n      {\n        \"description\": \"Ensure all deliverables meet deadlines\",\n        \"owner\": \"Devon\"\n      }\n    ]\n  }\n]",
+    "parsed_response": [
+      {
+        "summary": "Local model simple-distilgpt2 analysis - Project coordination and planning",
+        "thread_ids": [
+          "thread_001",
+          "thread_002",
+          "thread_003",
+          "thread_004"
+        ],
+        "participants": [
+          "Devon",
+          "Sam",
+          "Leah",
+          "Jordan"
+        ],
+        "actions": [
+          {
+            "description": "Prepare project kickoff materials",
+            "owner": "team"
+          },
+          {
+            "description": "Review project requirements and deadlines",
+            "owner": "Jordan"
+          },
+          {
+            "description": "Create initial design concepts",
+            "owner": "Sam"
+          },
+          {
+            "description": "Draft content strategy and messaging",
+            "owner": "Leah"
+          },
+          {
+            "description": "Ensure all deliverables meet deadlines",
+            "owner": "Devon"
+          }
+        ]
+      }
+    ],
+    "json_valid": true,
+    "duration": 2.002234697341919,
+    "timestamp": 1755702417.827446
+  },
+  "local_simple-textgen": {
+    "provider": "local",
+    "model": "simple-textgen",
+    "response": "[\n  {\n    \"summary\": \"Local model simple-textgen analysis - Project coordination and planning\",\n    \"thread_ids\": [\n      \"thread_001\",\n      \"thread_002\",\n      \"thread_003\",\n      \"thread_004\"\n    ],\n    \"participants\": [\n      \"Devon\",\n      \"Sam\",\n      \"Leah\",\n      \"Jordan\"\n    ],\n    \"actions\": [\n      {\n        \"description\": \"Prepare project kickoff materials\",\n        \"owner\": \"team\"\n      },\n      {\n        \"description\": \"Review project requirements and deadlines\",\n        \"owner\": \"Jordan\"\n      },\n      {\n        \"description\": \"Create initial design concepts\",\n        \"owner\": \"Sam\"\n      },\n      {\n        \"description\": \"Draft content strategy and messaging\",\n        \"owner\": \"Leah\"\n      },\n      {\n        \"description\": \"Ensure all deliverables meet deadlines\",\n        \"owner\": \"Devon\"\n      }\n    ]\n  }\n]",
+    "parsed_response": [
+      {
+        "summary": "Local model simple-textgen analysis - Project coordination and planning",
+        "thread_ids": [
+          "thread_001",
+          "thread_002",
+          "thread_003",
+          "thread_004"
+        ],
+        "participants": [
+          "Devon",
+          "Sam",
+          "Leah",
+          "Jordan"
+        ],
+        "actions": [
+          {
+            "description": "Prepare project kickoff materials",
+            "owner": "team"
+          },
+          {
+            "description": "Review project requirements and deadlines",
+            "owner": "Jordan"
+          },
+          {
+            "description": "Create initial design concepts",
+            "owner": "Sam"
+          },
+          {
+            "description": "Draft content strategy and messaging",
+            "owner": "Leah"
+          },
+          {
+            "description": "Ensure all deliverables meet deadlines",
+            "owner": "Devon"
+          }
+        ]
+      }
+    ],
+    "json_valid": true,
+    "duration": 2.0022761821746826,
+    "timestamp": 1755702419.8298213
+  }
+}

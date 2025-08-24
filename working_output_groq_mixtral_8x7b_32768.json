@@ -1,0 +1,9 @@
+{
+  "provider": "groq",
+  "model": "mixtral-8x7b-32768",
+  "response": "Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+  "parsed_response": "Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+  "json_valid": false,
+  "duration": 0.23176956176757812,
+  "timestamp": 1755698149.2143176
+}

@@ -1,0 +1,564 @@
+{
+  "provider": "google",
+  "model": "gemini-1.5-pro",
+  "response": "[\n  {\n    \"summary\": \"EcoBloom Summer Campaign: Initial planning and task assignment for the EcoBloom summer campaign. Deadline: July 28, 2025.\",\n    \"thread_ids\": [\"thread_001\"],\n    \"participants\": [\"Devon\", \"Sam\", \"Leah\", \"Jordan\"],\n    \"actions\": [\n      {\"description\": \"Initial design concepts\", \"owner\": \"Sam\"},\n      {\"description\": \"Content strategy draft\", \"owner\": \"Leah\"},\n      {\"description\": \"Contract review\", \"owner\": \"Jordan\"},\n      {\"description\": \"Final content to Sam\", \"owner\": \"Leah\"},\n      {\"description\": \"Final designs\", \"owner\": \"Sam\"},\n      {\"description\": \"Legal review\", \"owner\": \"Jordan\"}\n    ]\n  },\n  {\n    \"summary\": \"FitFusion Rebranding Project: Kickoff and initial planning for the FitFusion rebranding project. Deadline: August 15, 2025.\",\n    \"thread_ids\": [\"thread_002\"],\n    \"participants\": [\"Devon\", \"Sam\", \"Leah\", \"Jordan\"],\n    \"actions\": [\n      {\"description\": \"Research FitFusion's brand identity and competitors\", \"owner\": \"Sam\"},\n      {\"description\": \"Prepare initial messaging ideas\", \"owner\": \"Leah\"},\n      {\"description\": \"Contract review\", \"owner\": \"Jordan\"},\n      {\"description\": \"Design development\", \"owner\": \"Sam\"},\n      {\"description\": \"Brand messaging framework\", \"owner\": \"Leah\"},\n      {\"description\": \"Legal review of materials\", \"owner\": \"Jordan\"},\n      {\"description\": \"Trademark search\", \"owner\": \"Jordan\"},\n      {\"description\": \"Logo designs and brand guidelines\", \"owner\": \"Sam\"},\n      {\"description\": \"Brand voice guidelines\", \"owner\": \"Leah\"}\n    ]\n  },\n  {\n    \"summary\": \"TechNova Product Launch: Initial planning and task assignment for the TechNova product launch campaign. Deadline: September 10, 2025.\",\n    \"thread_ids\": [\"thread_003\"],\n    \"participants\": [\"Devon\", \"Sam\", \"Leah\", \"Jordan\"],\n    \"actions\": [\n      {\"description\": \"Prepare design ideas\", \"owner\": \"Sam\"},\n      {\"description\": \"Research target audience and competitors\", \"owner\": \"Leah\"},\n      {\"description\": \"Agreement review\", \"owner\": \"Jordan\"},\n      {\"description\": \"Design development\", \"owner\": \"Sam\"},\n      {\"description\": \"Product messaging framework\", \"owner\": \"Leah\"},\n      {\"description\": \"Legal review of materials\", \"owner\": \"Jordan\"},\n      {\"description\": \"Product packaging and promotional materials\", \"owner\": \"Sam\"},\n      {\"description\": \"Compliance review\", \"owner\": \"Jordan\"},\n      {\"description\": \"Product description and key messaging points\", \"owner\": \"Leah\"}\n\n    ]\n  },\n    {\n    \"summary\": \"GreenScape Sustainability Report: Planning, execution, and deadline extension for GreenScape's sustainability report. Original Deadline: August 30, 2025. Extended Deadline: September 15, 2025.\",\n    \"thread_ids\": [\"thread_004\"],\n    \"participants\": [\"Devon\", \"Sam\", \"Leah\", \"Jordan\"],\n    \"actions\": [\n      {\"description\": \"Prepare questions for client call and research previous reports\", \"owner\": \"Leah\"},\n      {\"description\": \"Data visualization and design\", \"owner\": \"Sam\"},\n      {\"description\": \"Sustainability reporting requirements review\", \"owner\": \"Jordan\"},\n      {\"description\": \"Content drafting\", \"owner\": \"Leah\"},\n      {\"description\": \"Design and data visualization\", \"owner\": \"Sam\"},\n      {\"description\": \"Legal review of materials\", \"owner\": \"Jordan\"},\n      {\"description\": \"Design concept\", \"owner\": \"Sam\"}\n    ]\n  },\n  {\n    \"summary\": \"UrbanEdge Social Media Strategy: Developing a social media strategy for UrbanEdge's market expansion. Deadline: July 20, 2025. Implementation start: August 1, 2025.\",\n    \"thread_ids\": [\"thread_005\"],\n    \"participants\": [\"Devon\", \"Sam\", \"Leah\", \"Jordan\"],\n    \"actions\": [\n      {\"description\": \"Content strategy\", \"owner\": \"Leah\"},\n      {\"description\": \"Visual identity and content templates\", \"owner\": \"Sam\"},\n      {\"description\": \"Social media requirements review\", \"owner\": \"Jordan\"},\n      {\"description\": \"Audience research\", \"owner\": \"Leah\"},\n      {\"description\": \"Visual approach development\", \"owner\": \"Sam\"},\n      {\"description\": \"Legal review of materials\", \"owner\": \"Jordan\"}\n    ]\n  },\n  {\n    \"summary\": \"EcoBloom Summer Campaign Revisions: Addressing client feedback and revising design concepts for EcoBloom's summer campaign. Deadline: July 28, 2025.\",\n    \"thread_ids\": [\"thread_006\"],\n    \"participants\": [\"Devon\", \"Sam\", \"Leah\", \"Jordan\"],\n    \"actions\": [\n      {\"description\": \"Revised design concepts\", \"owner\": \"Sam\"},\n      {\"description\": \"Content adjustments\", \"owner\": \"Leah\"},\n      {\"description\": \"Legal review\", \"owner\": \"Jordan\"},\n      {\"description\": \"New color palette\", \"owner\": \"Sam\"},\n      {\"description\": \"Content visual reference updates\", \"owner\": \"Leah\"}\n\n    ]\n  },\n{\n    \"summary\": \"FitFusion Rebranding Legal Review and Tagline Refinement: Legal review of FitFusion's rebranding materials and addressing tagline trademark issues. Deadline: August 15, 2025.\",\n    \"thread_ids\": [\"thread_007\"],\n    \"participants\": [\"Devon\", \"Sam\", \"Leah\", \"Jordan\"],\n    \"actions\": [\n      {\"description\": \"Legal review of rebranding campaign\", \"owner\": \"Jordan\"},\n      {\"description\": \"Provide design concepts for trademark review\", \"owner\": \"Sam\"},\n      {\"description\": \"Share brand messaging and taglines for legal review\", \"owner\": \"Leah\"},\n      {\"description\": \"Develop alternative taglines\", \"owner\": \"Leah\"},\n      {\"description\": \"Review alternative taglines\", \"owner\": \"Jordan\"},\n      {\"description\": \"Integrate final tagline into design concepts\", \"owner\": \"Sam\"}\n    ]\n  },\n{\n    \"summary\": \"Q3 Content Calendar: Developing the Q3 content calendar for all clients. Deadline: July 20, 2025.\",\n    \"thread_ids\": [\"thread_008\"],\n    \"participants\": [\"Devon\", \"Sam\", \"Leah\", \"Jordan\"],\n    \"actions\": [\n      {\"description\": \"Lead Q3 content calendar development\", \"owner\": \"Leah\"},\n      {\"description\": \"Provide design requirements and timelines\", \"owner\": \"Sam\"},\n      {\"description\": \"Provide legal review requirements and timelines\", \"owner\": \"Jordan\"}\n    ]\n  },\n{\n    \"summary\": \"TechNova Budget Finalization: Finalizing the budget for TechNova's product launch campaign. Deadline: July 25, 2025.\",\n    \"thread_ids\": [\"thread_009\"],\n    \"participants\": [\"Devon\", \"Sam\", \"Leah\", \"Jordan\"],\n    \"actions\": [\n      {\"description\": \"Prepare design and production costs breakdown\", \"owner\": \"Sam\"},\n      {\"description\": \"Prepare content creation and distribution costs breakdown\", \"owner\": \"Leah\"},\n      {\"description\": \"Prepare legal review and compliance costs breakdown\", \"owner\": \"Jordan\"},\n      {\"description\": \"Consolidate cost breakdowns into a comprehensive budget document\", \"owner\": \"Devon\"}\n    ]\n  },\n    {\n    \"summary\": \"GreenScape Extension & Resource Allocation: Managing GreenScape's extension request and its impact on resource allocation for other projects. Original Deadline: August 30, 2025. Extended Deadline: September 15, 2025.\",\n    \"thread_ids\": [\"thread_010\"],\n    \"participants\": [\"Devon\", \"Sam\", \"Leah\", \"Jordan\"],\n    \"actions\": [\n            {\"description\": \"Adjust content timeline\", \"owner\": \"Leah\"},\n            {\"description\": \"Adjust design timeline\", \"owner\": \"Sam\"},\n            {\"description\": \"Adjust legal review timeline\", \"owner\": \"Jordan\"},\n            {\"description\": \"Inform GreenScape of approved extension\", \"owner\": \"Devon\"},\n      {\"description\": \"Update content calendar\", \"owner\": \"Leah\"}\n    ]\n  },\n  {\n    \"summary\": \"EcoBloom Final Design Concepts & Legal Review: Finalizing and reviewing EcoBloom's campaign designs before client submission. Deadline: July 28, 2025.\",\n    \"thread_ids\": [\"thread_011\"],\n    \"participants\": [\"Devon\", \"Sam\", \"Leah\", \"Jordan\"],\n    \"actions\": [\n      {\"description\": \"Finalize designs\", \"owner\": \"Sam\"},\n      {\"description\": \"Content integration\", \"owner\": \"Leah\"},\n      {\"description\": \"Legal review\", \"owner\": \"Jordan\"},\n      {\"description\": \"Prepare final package for delivery\", \"owner\": \"Sam\"},\n      {\"description\": \"Organize and label content files\", \"owner\": \"Leah\"}\n    ]\n  },\n  {\n    \"summary\": \"FitFusion Brand Guidelines: Developing and reviewing brand guidelines for FitFusion. Deadline: August 5, 2025.\",\n    \"thread_ids\": [\"thread_012\"],\n    \"participants\": [\"Devon\", \"Sam\", \"Leah\", \"Jordan\"],\n    \"actions\": [\n      {\"description\": \"Develop brand guidelines draft\", \"owner\": \"Sam\"},\n      {\"description\": \"Provide messaging and tone of voice guidelines\", \"owner\": \"Leah\"},\n      {\"description\": \"Legal review\", \"owner\": \"Jordan\"},\n      {\"description\": \"Develop visual components of brand guidelines\", \"owner\": \"Sam\"},\n      {\"description\": \"Finalize brand guidelines document\", \"owner\": \"Sam\"},\n      {\"description\": \"Prepare final package for client delivery\", \"owner\": \"Sam\"}\n    ]\n  },\n  {\n    \"summary\": \"TechNova Product Descriptions: Developing and reviewing product descriptions for TechNova. Deadline: August 10, 2025.\",\n    \"thread_ids\": [\"thread_013\"],\n    \"participants\": [\"Devon\", \"Sam\", \"Leah\", \"Jordan\"],\n    \"actions\": [\n      {\"description\": \"Develop product descriptions draft\", \"owner\": \"Leah\"},\n      {\"description\": \"Provide visual support for product descriptions\", \"owner\": \"Sam\"},\n      {\"description\": \"Compliance review\", \"owner\": \"Jordan\"},\n      {\"description\": \"Finalize product descriptions\", \"owner\": \"Leah\"},\n      {\"description\": \"Prepare final package for client delivery\", \"owner\": \"Leah\"}\n    ]\n  },\n  {\n    \"summary\": \"GreenScape Data Visualizations: Developing and reviewing data visualizations for GreenScape. Deadline: September 5, 2025.\",\n    \"thread_ids\": [\"thread_014\"],\n    \"participants\": [\"Devon\", \"Sam\", \"Leah\", \"Jordan\"],\n    \"actions\": [\n      {\"description\": \"Develop data visualizations draft\", \"owner\": \"Sam\"},\n      {\"description\": \"Provide data points and key insights\", \"owner\": \"Leah\"},\n      {\"description\": \"Review for accuracy of environmental claims\", \"owner\": \"Jordan\"},\n      {\"description\": \"Finalize data visualizations\", \"owner\": \"Sam\"},\n      {\"description\": \"Prepare final package for client delivery\", \"owner\": \"Sam\"}\n    ]\n  },\n  {\n    \"summary\": \"UrbanEdge Market Research: Conducting market research for UrbanEdge. Deadline: September 15, 2025.\",\n    \"thread_ids\": [\"thread_015\"],\n    \"participants\": [\"Devon\", \"Sam\", \"Leah\", \"Jordan\"],\n    \"actions\": [\n      {\"description\": \"Lead market research\", \"owner\": \"Leah\"},\n      {\"description\": \"Support with visual analysis\", \"owner\": \"Sam\"},\n      {\"description\": \"Compliance review\", \"owner\": \"Jordan\"},\n      {\"description\": \"Finalize market research\", \"owner\": \"Leah\"},\n      {\"description\": \"Prepare final package for client delivery\", \"owner\": \"Leah\"}\n    ]\n  }\n]",
+  "parsed_response": [
+    {
+      "summary": "EcoBloom Summer Campaign: Initial planning and task assignment for the EcoBloom summer campaign. Deadline: July 28, 2025.",
+      "thread_ids": [
+        "thread_001"
+      ],
+      "participants": [
+        "Devon",
+        "Sam",
+        "Leah",
+        "Jordan"
+      ],
+      "actions": [
+        {
+          "description": "Initial design concepts",
+          "owner": "Sam"
+        },
+        {
+          "description": "Content strategy draft",
+          "owner": "Leah"
+        },
+        {
+          "description": "Contract review",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Final content to Sam",
+          "owner": "Leah"
+        },
+        {
+          "description": "Final designs",
+          "owner": "Sam"
+        },
+        {
+          "description": "Legal review",
+          "owner": "Jordan"
+        }
+      ]
+    },
+    {
+      "summary": "FitFusion Rebranding Project: Kickoff and initial planning for the FitFusion rebranding project. Deadline: August 15, 2025.",
+      "thread_ids": [
+        "thread_002"
+      ],
+      "participants": [
+        "Devon",
+        "Sam",
+        "Leah",
+        "Jordan"
+      ],
+      "actions": [
+        {
+          "description": "Research FitFusion's brand identity and competitors",
+          "owner": "Sam"
+        },
+        {
+          "description": "Prepare initial messaging ideas",
+          "owner": "Leah"
+        },
+        {
+          "description": "Contract review",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Design development",
+          "owner": "Sam"
+        },
+        {
+          "description": "Brand messaging framework",
+          "owner": "Leah"
+        },
+        {
+          "description": "Legal review of materials",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Trademark search",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Logo designs and brand guidelines",
+          "owner": "Sam"
+        },
+        {
+          "description": "Brand voice guidelines",
+          "owner": "Leah"
+        }
+      ]
+    },
+    {
+      "summary": "TechNova Product Launch: Initial planning and task assignment for the TechNova product launch campaign. Deadline: September 10, 2025.",
+      "thread_ids": [
+        "thread_003"
+      ],
+      "participants": [
+        "Devon",
+        "Sam",
+        "Leah",
+        "Jordan"
+      ],
+      "actions": [
+        {
+          "description": "Prepare design ideas",
+          "owner": "Sam"
+        },
+        {
+          "description": "Research target audience and competitors",
+          "owner": "Leah"
+        },
+        {
+          "description": "Agreement review",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Design development",
+          "owner": "Sam"
+        },
+        {
+          "description": "Product messaging framework",
+          "owner": "Leah"
+        },
+        {
+          "description": "Legal review of materials",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Product packaging and promotional materials",
+          "owner": "Sam"
+        },
+        {
+          "description": "Compliance review",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Product description and key messaging points",
+          "owner": "Leah"
+        }
+      ]
+    },
+    {
+      "summary": "GreenScape Sustainability Report: Planning, execution, and deadline extension for GreenScape's sustainability report. Original Deadline: August 30, 2025. Extended Deadline: September 15, 2025.",
+      "thread_ids": [
+        "thread_004"
+      ],
+      "participants": [
+        "Devon",
+        "Sam",
+        "Leah",
+        "Jordan"
+      ],
+      "actions": [
+        {
+          "description": "Prepare questions for client call and research previous reports",
+          "owner": "Leah"
+        },
+        {
+          "description": "Data visualization and design",
+          "owner": "Sam"
+        },
+        {
+          "description": "Sustainability reporting requirements review",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Content drafting",
+          "owner": "Leah"
+        },
+        {
+          "description": "Design and data visualization",
+          "owner": "Sam"
+        },
+        {
+          "description": "Legal review of materials",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Design concept",
+          "owner": "Sam"
+        }
+      ]
+    },
+    {
+      "summary": "UrbanEdge Social Media Strategy: Developing a social media strategy for UrbanEdge's market expansion. Deadline: July 20, 2025. Implementation start: August 1, 2025.",
+      "thread_ids": [
+        "thread_005"
+      ],
+      "participants": [
+        "Devon",
+        "Sam",
+        "Leah",
+        "Jordan"
+      ],
+      "actions": [
+        {
+          "description": "Content strategy",
+          "owner": "Leah"
+        },
+        {
+          "description": "Visual identity and content templates",
+          "owner": "Sam"
+        },
+        {
+          "description": "Social media requirements review",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Audience research",
+          "owner": "Leah"
+        },
+        {
+          "description": "Visual approach development",
+          "owner": "Sam"
+        },
+        {
+          "description": "Legal review of materials",
+          "owner": "Jordan"
+        }
+      ]
+    },
+    {
+      "summary": "EcoBloom Summer Campaign Revisions: Addressing client feedback and revising design concepts for EcoBloom's summer campaign. Deadline: July 28, 2025.",
+      "thread_ids": [
+        "thread_006"
+      ],
+      "participants": [
+        "Devon",
+        "Sam",
+        "Leah",
+        "Jordan"
+      ],
+      "actions": [
+        {
+          "description": "Revised design concepts",
+          "owner": "Sam"
+        },
+        {
+          "description": "Content adjustments",
+          "owner": "Leah"
+        },
+        {
+          "description": "Legal review",
+          "owner": "Jordan"
+        },
+        {
+          "description": "New color palette",
+          "owner": "Sam"
+        },
+        {
+          "description": "Content visual reference updates",
+          "owner": "Leah"
+        }
+      ]
+    },
+    {
+      "summary": "FitFusion Rebranding Legal Review and Tagline Refinement: Legal review of FitFusion's rebranding materials and addressing tagline trademark issues. Deadline: August 15, 2025.",
+      "thread_ids": [
+        "thread_007"
+      ],
+      "participants": [
+        "Devon",
+        "Sam",
+        "Leah",
+        "Jordan"
+      ],
+      "actions": [
+        {
+          "description": "Legal review of rebranding campaign",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Provide design concepts for trademark review",
+          "owner": "Sam"
+        },
+        {
+          "description": "Share brand messaging and taglines for legal review",
+          "owner": "Leah"
+        },
+        {
+          "description": "Develop alternative taglines",
+          "owner": "Leah"
+        },
+        {
+          "description": "Review alternative taglines",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Integrate final tagline into design concepts",
+          "owner": "Sam"
+        }
+      ]
+    },
+    {
+      "summary": "Q3 Content Calendar: Developing the Q3 content calendar for all clients. Deadline: July 20, 2025.",
+      "thread_ids": [
+        "thread_008"
+      ],
+      "participants": [
+        "Devon",
+        "Sam",
+        "Leah",
+        "Jordan"
+      ],
+      "actions": [
+        {
+          "description": "Lead Q3 content calendar development",
+          "owner": "Leah"
+        },
+        {
+          "description": "Provide design requirements and timelines",
+          "owner": "Sam"
+        },
+        {
+          "description": "Provide legal review requirements and timelines",
+          "owner": "Jordan"
+        }
+      ]
+    },
+    {
+      "summary": "TechNova Budget Finalization: Finalizing the budget for TechNova's product launch campaign. Deadline: July 25, 2025.",
+      "thread_ids": [
+        "thread_009"
+      ],
+      "participants": [
+        "Devon",
+        "Sam",
+        "Leah",
+        "Jordan"
+      ],
+      "actions": [
+        {
+          "description": "Prepare design and production costs breakdown",
+          "owner": "Sam"
+        },
+        {
+          "description": "Prepare content creation and distribution costs breakdown",
+          "owner": "Leah"
+        },
+        {
+          "description": "Prepare legal review and compliance costs breakdown",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Consolidate cost breakdowns into a comprehensive budget document",
+          "owner": "Devon"
+        }
+      ]
+    },
+    {
+      "summary": "GreenScape Extension & Resource Allocation: Managing GreenScape's extension request and its impact on resource allocation for other projects. Original Deadline: August 30, 2025. Extended Deadline: September 15, 2025.",
+      "thread_ids": [
+        "thread_010"
+      ],
+      "participants": [
+        "Devon",
+        "Sam",
+        "Leah",
+        "Jordan"
+      ],
+      "actions": [
+        {
+          "description": "Adjust content timeline",
+          "owner": "Leah"
+        },
+        {
+          "description": "Adjust design timeline",
+          "owner": "Sam"
+        },
+        {
+          "description": "Adjust legal review timeline",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Inform GreenScape of approved extension",
+          "owner": "Devon"
+        },
+        {
+          "description": "Update content calendar",
+          "owner": "Leah"
+        }
+      ]
+    },
+    {
+      "summary": "EcoBloom Final Design Concepts & Legal Review: Finalizing and reviewing EcoBloom's campaign designs before client submission. Deadline: July 28, 2025.",
+      "thread_ids": [
+        "thread_011"
+      ],
+      "participants": [
+        "Devon",
+        "Sam",
+        "Leah",
+        "Jordan"
+      ],
+      "actions": [
+        {
+          "description": "Finalize designs",
+          "owner": "Sam"
+        },
+        {
+          "description": "Content integration",
+          "owner": "Leah"
+        },
+        {
+          "description": "Legal review",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Prepare final package for delivery",
+          "owner": "Sam"
+        },
+        {
+          "description": "Organize and label content files",
+          "owner": "Leah"
+        }
+      ]
+    },
+    {
+      "summary": "FitFusion Brand Guidelines: Developing and reviewing brand guidelines for FitFusion. Deadline: August 5, 2025.",
+      "thread_ids": [
+        "thread_012"
+      ],
+      "participants": [
+        "Devon",
+        "Sam",
+        "Leah",
+        "Jordan"
+      ],
+      "actions": [
+        {
+          "description": "Develop brand guidelines draft",
+          "owner": "Sam"
+        },
+        {
+          "description": "Provide messaging and tone of voice guidelines",
+          "owner": "Leah"
+        },
+        {
+          "description": "Legal review",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Develop visual components of brand guidelines",
+          "owner": "Sam"
+        },
+        {
+          "description": "Finalize brand guidelines document",
+          "owner": "Sam"
+        },
+        {
+          "description": "Prepare final package for client delivery",
+          "owner": "Sam"
+        }
+      ]
+    },
+    {
+      "summary": "TechNova Product Descriptions: Developing and reviewing product descriptions for TechNova. Deadline: August 10, 2025.",
+      "thread_ids": [
+        "thread_013"
+      ],
+      "participants": [
+        "Devon",
+        "Sam",
+        "Leah",
+        "Jordan"
+      ],
+      "actions": [
+        {
+          "description": "Develop product descriptions draft",
+          "owner": "Leah"
+        },
+        {
+          "description": "Provide visual support for product descriptions",
+          "owner": "Sam"
+        },
+        {
+          "description": "Compliance review",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Finalize product descriptions",
+          "owner": "Leah"
+        },
+        {
+          "description": "Prepare final package for client delivery",
+          "owner": "Leah"
+        }
+      ]
+    },
+    {
+      "summary": "GreenScape Data Visualizations: Developing and reviewing data visualizations for GreenScape. Deadline: September 5, 2025.",
+      "thread_ids": [
+        "thread_014"
+      ],
+      "participants": [
+        "Devon",
+        "Sam",
+        "Leah",
+        "Jordan"
+      ],
+      "actions": [
+        {
+          "description": "Develop data visualizations draft",
+          "owner": "Sam"
+        },
+        {
+          "description": "Provide data points and key insights",
+          "owner": "Leah"
+        },
+        {
+          "description": "Review for accuracy of environmental claims",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Finalize data visualizations",
+          "owner": "Sam"
+        },
+        {
+          "description": "Prepare final package for client delivery",
+          "owner": "Sam"
+        }
+      ]
+    },
+    {
+      "summary": "UrbanEdge Market Research: Conducting market research for UrbanEdge. Deadline: September 15, 2025.",
+      "thread_ids": [
+        "thread_015"
+      ],
+      "participants": [
+        "Devon",
+        "Sam",
+        "Leah",
+        "Jordan"
+      ],
+      "actions": [
+        {
+          "description": "Lead market research",
+          "owner": "Leah"
+        },
+        {
+          "description": "Support with visual analysis",
+          "owner": "Sam"
+        },
+        {
+          "description": "Compliance review",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Finalize market research",
+          "owner": "Leah"
+        },
+        {
+          "description": "Prepare final package for client delivery",
+          "owner": "Leah"
+        }
+      ]
+    }
+  ],
+  "json_valid": true,
+  "duration": 37.212772607803345,
+  "timestamp": 1755659323.2586317
+}

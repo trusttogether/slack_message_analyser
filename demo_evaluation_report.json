@@ -1,0 +1,53 @@
+{
+  "demo_info": {
+    "description": "DEEMERGE Evaluation Framework Demo",
+    "note": "This is a simulation - no real API calls were made",
+    "total_models": 5,
+    "providers": [
+      "llama3",
+      "gemma",
+      "gemini",
+      "claude",
+      "gpt"
+    ],
+    "json_valid_count": 5,
+    "average_duration": 0.1002932071685791
+  },
+  "model_performance": {
+    "gpt-4": {
+      "provider": "gpt",
+      "model": "gpt-4",
+      "json_valid": true,
+      "duration": 0.1003880500793457,
+      "status": "success"
+    },
+    "gemini-pro": {
+      "provider": "gemini",
+      "model": "gemini-pro",
+      "json_valid": true,
+      "duration": 0.10030007362365723,
+      "status": "success"
+    },
+    "claude-3": {
+      "provider": "claude",
+      "model": "claude-3",
+      "json_valid": true,
+      "duration": 0.10027623176574707,
+      "status": "success"
+    },
+    "llama3-8b": {
+      "provider": "llama3",
+      "model": "llama3-8b",
+      "json_valid": true,
+      "duration": 0.10025715827941895,
+      "status": "success"
+    },
+    "gemma-7b": {
+      "provider": "gemma",
+      "model": "gemma-7b",
+      "json_valid": true,
+      "duration": 0.10024452209472656,
+      "status": "success"
+    }
+  }
+}

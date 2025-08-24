@@ -1,0 +1,9 @@
+{
+  "provider": "anthropic",
+  "model": "claude-3-opus-20240229",
+  "response": "Error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CSJE4Bm5EfqTzPnCNxYub'}",
+  "parsed_response": "Error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CSJE4Bm5EfqTzPnCNxYub'}",
+  "json_valid": false,
+  "duration": 0.16538047790527344,
+  "timestamp": 1755659324.0317314
+}

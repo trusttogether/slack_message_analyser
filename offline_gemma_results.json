@@ -1,0 +1,21 @@
+{
+  "basic_test": {
+    "success": true,
+    "model": "gemma:2b",
+    "response": "Hello! It's a pleasure to meet you. How can I assist you today?",
+    "duration": 13.426393985748291
+  },
+  "topic_test": {
+    "success": true,
+    "model": "gemma:2b",
+    "response": "Sure, here are the 3 topics from the messages:\n\n1. Meeting at 3pm today\n2. Project deadline is Friday\n3. Client presentation tomorrow",
+    "duration": 17.50342607498169
+  },
+  "json_test": {
+    "success": true,
+    "model": "gemma:2b",
+    "response": "```json\n[\n  {\"title\": \"test\"}\n]\n```",
+    "duration": 9.892658948898315
+  },
+  "timestamp": 1755864606.6906238
+}

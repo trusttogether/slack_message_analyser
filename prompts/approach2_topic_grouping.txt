@@ -1,0 +1,17 @@
+You are a topic detection assistant. Given these Slack messages, group them into topics by thread_id. For each topic, list:
+- thread_ids
+- participants
+- a short summary
+
+Format as JSON:
+[
+  {
+    "thread_ids": [1, 2],
+    "participants": ["alice", "bob"],
+    "summary": "..."
+  },
+  ...
+]
+
+Messages:
+{messages} 

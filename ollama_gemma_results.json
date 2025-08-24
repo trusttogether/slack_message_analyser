@@ -1,0 +1,42 @@
+{
+  "ollama_gemma:2b": {
+    "provider": "ollama",
+    "model": "gemma:2b",
+    "response": "Error: Request timed out. Model may be too slow or overloaded.",
+    "parsed_response": [],
+    "json_valid": false,
+    "topics_found": 0,
+    "duration": 120.10230755805969,
+    "timestamp": 1755822406.7071927
+  },
+  "ollama_gemma:7b": {
+    "provider": "ollama",
+    "model": "gemma:7b",
+    "response": "Error: Request timed out. Model may be too slow or overloaded.",
+    "parsed_response": [],
+    "json_valid": false,
+    "topics_found": 0,
+    "duration": 120.10532450675964,
+    "timestamp": 1755822528.813982
+  },
+  "ollama_gemma:2b-instruct": {
+    "provider": "ollama",
+    "model": "gemma:2b-instruct",
+    "response": "Error: Request timed out. Model may be too slow or overloaded.",
+    "parsed_response": [],
+    "json_valid": false,
+    "topics_found": 0,
+    "duration": 120.10140824317932,
+    "timestamp": 1755822650.9170265
+  },
+  "ollama_gemma:7b-instruct": {
+    "provider": "ollama",
+    "model": "gemma:7b-instruct",
+    "response": "Error: Request timed out. Model may be too slow or overloaded.",
+    "parsed_response": [],
+    "json_valid": false,
+    "topics_found": 0,
+    "duration": 120.10241460800171,
+    "timestamp": 1755822773.0210335
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "evaluation_date": "2025-08-20T01:21:14.940549",
+  "total_models_tested": 11,
+  "providers": [
+    "anthropic",
+    "groq",
+    "google",
+    "openai"
+  ],
+  "best_performing_models": [],
+  "summary_files": [
+    "comprehensive_model_evaluation.json",
+    "model_evaluation_report.json"
+  ]
+}

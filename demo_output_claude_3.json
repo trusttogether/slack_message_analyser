@@ -1,0 +1,67 @@
+{
+  "provider": "claude",
+  "model": "claude-3",
+  "response": "{\"topics\": [{\"summary\": \"EcoBloom Summer Campaign with July 28 deadline\", \"thread_ids\": [1, 2, 3, 4, 5], \"participants\": [\"@Devon\", \"@Sam\", \"@Leah\"], \"actions\": [{\"description\": \"Design concepts\", \"owner\": \"@Sam\"}, {\"description\": \"Content strategy\", \"owner\": \"@Leah\"}, {\"description\": \"Legal review\", \"owner\": \"@Jordan\"}]}, {\"summary\": \"FitFusion rebranding project\", \"thread_ids\": [14, 15, 16, 17, 18, 19], \"participants\": [\"@Devon\", \"@Sam\", \"@Jordan\"], \"actions\": [{\"description\": \"Brand messaging\", \"owner\": \"@Sam\"}, {\"description\": \"Legal compliance\", \"owner\": \"@Jordan\"}]}]}",
+  "parsed_response": {
+    "topics": [
+      {
+        "summary": "EcoBloom Summer Campaign with July 28 deadline",
+        "thread_ids": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Leah"
+        ],
+        "actions": [
+          {
+            "description": "Design concepts",
+            "owner": "@Sam"
+          },
+          {
+            "description": "Content strategy",
+            "owner": "@Leah"
+          },
+          {
+            "description": "Legal review",
+            "owner": "@Jordan"
+          }
+        ]
+      },
+      {
+        "summary": "FitFusion rebranding project",
+        "thread_ids": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Jordan"
+        ],
+        "actions": [
+          {
+            "description": "Brand messaging",
+            "owner": "@Sam"
+          },
+          {
+            "description": "Legal compliance",
+            "owner": "@Jordan"
+          }
+        ]
+      }
+    ]
+  },
+  "json_valid": true,
+  "duration": 0.10027623176574707,
+  "timestamp": 1755652548.2961113
+}

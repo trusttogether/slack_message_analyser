@@ -1,0 +1,9 @@
+{
+  "provider": "groq",
+  "model": "llama3-8b-8192",
+  "response": "Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+  "parsed_response": "Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+  "json_valid": false,
+  "duration": 0.23360228538513184,
+  "timestamp": 1755659323.4941077
+}

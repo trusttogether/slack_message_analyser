@@ -1,0 +1,22 @@
+{
+  "system_check": {
+    "cpu_count": 8,
+    "memory_gb": 31,
+    "ollama_running": true
+  },
+  "test1": {
+    "success": false,
+    "response": "TIMEOUT",
+    "duration": 5.011622667312622
+  },
+  "test2": {
+    "success": false,
+    "response": "TIMEOUT",
+    "duration": 10.005225658416748
+  },
+  "test3": {
+    "success": false,
+    "response": "TIMEOUT",
+    "duration": 5.00700831413269
+  }
+}

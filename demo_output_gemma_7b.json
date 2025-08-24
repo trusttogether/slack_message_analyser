@@ -1,0 +1,30 @@
+{
+  "provider": "gemma",
+  "model": "gemma-7b",
+  "response": "{\"topics\": [{\"summary\": \"General project discussion\", \"thread_ids\": [1, 2, 3], \"participants\": [\"@Devon\", \"@Sam\"], \"actions\": [{\"description\": \"Follow up on tasks\", \"owner\": \"@Devon\"}]}]}",
+  "parsed_response": {
+    "topics": [
+      {
+        "summary": "General project discussion",
+        "thread_ids": [
+          1,
+          2,
+          3
+        ],
+        "participants": [
+          "@Devon",
+          "@Sam"
+        ],
+        "actions": [
+          {
+            "description": "Follow up on tasks",
+            "owner": "@Devon"
+          }
+        ]
+      }
+    ]
+  },
+  "json_valid": true,
+  "duration": 0.10024452209472656,
+  "timestamp": 1755652548.4976363
+}

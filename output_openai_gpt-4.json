@@ -1,0 +1,9 @@
+{
+  "provider": "openai",
+  "model": "gpt-4",
+  "response": "Error: Error code: 429 - {'error': {'message': 'Request too large for gpt-4 in organization org-vEu8gEHo1nDSvh5IVWeKRgKs on tokens per min (TPM): Limit 10000, Requested 22788. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+  "parsed_response": "Error: Error code: 429 - {'error': {'message': 'Request too large for gpt-4 in organization org-vEu8gEHo1nDSvh5IVWeKRgKs on tokens per min (TPM): Limit 10000, Requested 22788. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+  "json_valid": false,
+  "duration": 3.5419890880584717,
+  "timestamp": 1755659206.3894124
+}

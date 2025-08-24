@@ -1,0 +1,30 @@
+{
+  "provider": "llama3",
+  "model": "llama3-8b",
+  "response": "{\"topics\": [{\"summary\": \"General project discussion\", \"thread_ids\": [1, 2, 3], \"participants\": [\"@Devon\", \"@Sam\"], \"actions\": [{\"description\": \"Follow up on tasks\", \"owner\": \"@Devon\"}]}]}",
+  "parsed_response": {
+    "topics": [
+      {
+        "summary": "General project discussion",
+        "thread_ids": [
+          1,
+          2,
+          3
+        ],
+        "participants": [
+          "@Devon",
+          "@Sam"
+        ],
+        "actions": [
+          {
+            "description": "Follow up on tasks",
+            "owner": "@Devon"
+          }
+        ]
+      }
+    ]
+  },
+  "json_valid": true,
+  "duration": 0.10025715827941895,
+  "timestamp": 1755652548.396918
+}

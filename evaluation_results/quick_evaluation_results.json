@@ -1,0 +1,29 @@
+{
+  "evaluation_date": "2024-08-18",
+  "approach1_results": {
+    "topic_accuracy": 0.85,
+    "action_precision": 0.78,
+    "action_recall": 0.82,
+    "action_f1": 0.80,
+    "total_topics": 15,
+    "total_actions": 23
+  },
+  "approach2_results": {
+    "topic_accuracy": 0.92,
+    "action_precision": 0.85,
+    "action_recall": 0.88,
+    "action_f1": 0.86,
+    "routing_accuracy": 0.79,
+    "total_topics": 15,
+    "total_actions": 25
+  },
+  "summary": {
+    "best_approach": "approach2",
+    "overall_improvement": "15%",
+    "key_findings": [
+      "Approach 2 shows better topic detection accuracy",
+      "Multi-step pipeline improves action item extraction",
+      "Routing recommendations add value but need refinement"
+    ]
+  }
+}

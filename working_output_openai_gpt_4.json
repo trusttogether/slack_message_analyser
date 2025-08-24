@@ -1,0 +1,9 @@
+{
+  "provider": "openai",
+  "model": "gpt-4",
+  "response": "Error: Client.__init__() got an unexpected keyword argument 'proxies'",
+  "parsed_response": "Error: Client.__init__() got an unexpected keyword argument 'proxies'",
+  "json_valid": false,
+  "duration": 0.809171199798584,
+  "timestamp": 1755698124.8142827
+}

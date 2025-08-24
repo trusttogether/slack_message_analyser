@@ -1,0 +1,62 @@
+{
+  "provider": "gpt",
+  "model": "gpt-4",
+  "response": "{\"topics\": [{\"summary\": \"EcoBloom Summer Campaign Planning\", \"thread_ids\": [1, 2, 3, 4, 5], \"participants\": [\"@Devon\", \"@Sam\", \"@Leah\"], \"actions\": [{\"description\": \"Share initial designs\", \"owner\": \"@Sam\"}, {\"description\": \"Complete content strategy\", \"owner\": \"@Leah\"}]}, {\"summary\": \"FitFusion Rebranding Project\", \"thread_ids\": [14, 15, 16, 17, 18], \"participants\": [\"@Devon\", \"@Sam\", \"@Jordan\"], \"actions\": [{\"description\": \"Develop brand messaging\", \"owner\": \"@Sam\"}, {\"description\": \"Legal review\", \"owner\": \"@Jordan\"}]}]}",
+  "parsed_response": {
+    "topics": [
+      {
+        "summary": "EcoBloom Summer Campaign Planning",
+        "thread_ids": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Leah"
+        ],
+        "actions": [
+          {
+            "description": "Share initial designs",
+            "owner": "@Sam"
+          },
+          {
+            "description": "Complete content strategy",
+            "owner": "@Leah"
+          }
+        ]
+      },
+      {
+        "summary": "FitFusion Rebranding Project",
+        "thread_ids": [
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Jordan"
+        ],
+        "actions": [
+          {
+            "description": "Develop brand messaging",
+            "owner": "@Sam"
+          },
+          {
+            "description": "Legal review",
+            "owner": "@Jordan"
+          }
+        ]
+      }
+    ]
+  },
+  "json_valid": true,
+  "duration": 0.1003880500793457,
+  "timestamp": 1755652548.094462
+}

@@ -1,0 +1,19 @@
+### Create a new conversation in Re:amaze
+POST https://buzzpatch.reamaze.io/api/v1/conversations
+Accept: application/json
+Content-Type: application/json
+Authorization: Basic Q2FyZUBuYXR1cmFscGF0Y2guY29tOmM1NDYwZDE1YjFlZGYyODliNTZkZWY4MmJhNDQ5M2Q1MzM2NGNjZjQ3ZGM2MGRiNmJlNTliZGUxMDBkYTA4NWJh
+
+{
+  "conversation": {
+    "subject": "foo",
+    "category": "support",
+    "message": {
+      "body": "bar"
+    },
+    "user": {
+      "name": "bob",
+      "email": "bob@example.com"
+    }
+  }
+}

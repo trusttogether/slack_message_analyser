@@ -1,0 +1,17 @@
+You are an expert at extracting action items from Slack conversations. For each topic below, read the messages and extract:
+- Action items (with owner)
+- Any due dates
+
+Format as JSON:
+[
+  {
+    "topic_id": 1,
+    "actions": [
+      {"description": "...", "owner": "...", "due_date": "..."}
+    ]
+  },
+  ...
+]
+
+Topics and messages:
+{topics_and_messages} 

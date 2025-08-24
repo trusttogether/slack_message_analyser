@@ -1,0 +1,12 @@
+{
+  "ollama_gemma:2b": {
+    "provider": "ollama",
+    "model": "gemma:2b",
+    "response": "Error: Request timed out.",
+    "parsed_response": [],
+    "json_valid": false,
+    "topics_found": 0,
+    "duration": 30.01549792289734,
+    "timestamp": 1755822042.523019
+  }
+}

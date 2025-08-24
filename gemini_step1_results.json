@@ -1,0 +1,1710 @@
+{
+  "google_gemini-1.5-flash": {
+    "provider": "google",
+    "model": "gemini-1.5-flash",
+    "response": "```json\n{\n  \"topics\": [\n    {\n      \"id\": \"topic_001\",\n      \"title\": \"EcoBloom Summer Campaign\",\n      \"participants\": [\"@Devon\", \"@Sam\", \"@Leah\", \"@Jordan\"],\n      \"summary\": \"Planning and execution of the EcoBloom summer marketing campaign, with a focus on meeting the July 28, 2025 deadline.\",\n      \"action_items\": [\n        {\n          \"task\": \"Prepare initial design concepts\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"June 25, 2025\"\n        },\n        {\n          \"task\": \"Draft content strategy\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"June 30, 2025\"\n        },\n        {\n          \"task\": \"Review contract terms\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": \"July 14, 2025\"\n        },\n        {\n          \"task\": \"Complete designs\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"July 21, 2025\"\n        },\n        {\n          \"task\": \"Final content for designs\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"July 10, 2025\"\n        },\n        {\n          \"task\": \"Provide all marketing materials for legal review\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": \"July 7, 2025\"\n        }\n      ],\n      \"channel\": \"#campaign-briefs\",\n      \"messages\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],\n      \"thread_root\": 1,\n      \"deadline\": \"July 28, 2025\",\n      \"tags\": [\"client\", \"high priority\", \"campaign\", \"deadline\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    },\n    {\n      \"id\": \"topic_002\",\n      \"title\": \"FitFusion Rebranding Project\",\n      \"participants\": [\"@Devon\", \"@Sam\", \"@Leah\", \"@Jordan\"],\n      \"summary\": \"Planning and execution of the FitFusion rebranding project, with a tight deadline of August 15, 2025.\",\n      \"action_items\": [\n        {\n          \"task\": \"Research current brand identity and competitors\",\n          \"owner\": \"@Sam\",\n          \"due_date\": null\n        },\n        {\n          \"task\": \"Prepare initial messaging ideas\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"July 2, 2025\"\n        },\n        {\n          \"task\": \"Review FitFusion contract\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": null\n        },\n        {\n          \"task\": \"Design development\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"July 16, 2025\"\n        },\n        {\n          \"task\": \"Brand messaging framework\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"July 2, 2025\"\n        },\n        {\n          \"task\": \"Legal review of branding materials\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": \"August 7, 2025\"\n        },\n        {\n          \"task\": \"Draft brand voice guidelines\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"June 26, 2025\"\n        },\n        {\n          \"task\": \"Logo designs and brand guidelines for legal review\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"July 30, 2025\"\n        },\n        {\n          \"task\": \"Trademark search\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"August 7, 2025\"\n        },\n        {\n          \"task\": \"First round of designs\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"July 5, 2025\"\n        }\n      ],\n      \"channel\": \"#campaign-briefs\",\n      \"messages\": [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],\n      \"thread_root\": 14,\n      \"deadline\": \"August 15, 2025\",\n      \"tags\": [\"client\", \"high priority\", \"rebranding\", \"urgent\", \"deadline\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    },\n    {\n      \"id\": \"topic_003\",\n      \"title\": \"TechNova Product Launch Campaign\",\n      \"participants\": [\"@Devon\", \"@Sam\", \"@Leah\", \"@Jordan\"],\n      \"summary\": \"Planning and execution of the TechNova product launch marketing campaign, with a deadline of September 10, 2025.\",\n      \"action_items\": [\n        {\n          \"task\": \"Develop ideas for campaign\",\n          \"owner\": \"@Sam\",\n          \"due_date\": null\n        },\n        {\n          \"task\": \"Research target audience and competitors\",\n          \"owner\": \"@Leah\",\n          \"due_date\": null\n        },\n        {\n          \"task\": \"Review TechNova agreement\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": null\n        },\n        {\n          \"task\": \"Design development\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"August 12, 2025\"\n        },\n        {\n          \"task\": \"Product messaging framework\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"July 22, 2025\"\n        },\n        {\n          \"task\": \"Legal review of marketing materials\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": \"September 2, 2025\"\n        },\n        {\n          \"task\": \"Draft product description and key messaging points\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"July 8, 2025\"\n        },\n        {\n          \"task\": \"Product packaging and promotional materials for legal review\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"August 26, 2025\"\n        },\n        {\n          \"task\": \"First round of designs\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"August 5, 2025\"\n        }\n      ],\n      \"channel\": \"#campaign-briefs\",\n      \"messages\": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],\n      \"thread_root\": 29,\n      \"deadline\": \"September 10, 2025\",\n      \"tags\": [\"client\", \"high priority\", \"campaign\", \"product launch\", \"deadline\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    },\n    {\n      \"id\": \"topic_004\",\n      \"title\": \"GreenScape Sustainability Report\",\n      \"participants\": [\"@Devon\", \"@Leah\", \"@Sam\", \"@Jordan\"],\n      \"summary\": \"Preparation of GreenScape's annual sustainability report, with a deadline of August 30, 2025.\",\n      \"action_items\": [\n        {\n          \"task\": \"Prepare questions for client call\",\n          \"owner\": \"@Leah\",\n          \"due_date\": null\n        },\n        {\n          \"task\": \"Research GreenScape's previous reports\",\n          \"owner\": \"@Leah\",\n          \"due_date\": null\n        },\n        {\n          \"task\": \"Help with data visualization and design elements\",\n          \"owner\": \"@Sam\",\n          \"due_date\": null\n        },\n        {\n          \"task\": \"Review GreenScape's sustainability reporting requirements\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": null\n        },\n        {\n          \"task\": \"Draft content for sustainability report\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"August 10, 2025\"\n        },\n        {\n          \"task\": \"Complete design and data visualization for report\",\n          \"owner\": \"@Sam\",\n          \"due_date\": null\n        }\n      ],\n      \"channel\": \"#client-communications\",\n      \"messages\": [44, 45, 46, 47, 48, 49, 50],\n      \"thread_root\": 44,\n      \"deadline\": \"August 30, 2025\",\n      \"tags\": [\"client\", \"high priority\", \"sustainability report\", \"deadline\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    }\n  ]\n}\n```\n",
+    "parsed_response": [
+      {
+        "id": "topic_001",
+        "title": "EcoBloom Summer Campaign",
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Leah",
+          "@Jordan"
+        ],
+        "summary": "Planning and execution of the EcoBloom summer marketing campaign, with a focus on meeting the July 28, 2025 deadline.",
+        "action_items": [
+          {
+            "task": "Prepare initial design concepts",
+            "owner": "@Sam",
+            "due_date": "June 25, 2025"
+          },
+          {
+            "task": "Draft content strategy",
+            "owner": "@Leah",
+            "due_date": "June 30, 2025"
+          },
+          {
+            "task": "Review contract terms",
+            "owner": "@Jordan",
+            "due_date": "July 14, 2025"
+          },
+          {
+            "task": "Complete designs",
+            "owner": "@Sam",
+            "due_date": "July 21, 2025"
+          },
+          {
+            "task": "Final content for designs",
+            "owner": "@Leah",
+            "due_date": "July 10, 2025"
+          },
+          {
+            "task": "Provide all marketing materials for legal review",
+            "owner": "@Jordan",
+            "due_date": "July 7, 2025"
+          }
+        ],
+        "channel": "#campaign-briefs",
+        "messages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "thread_root": 1,
+        "deadline": "July 28, 2025",
+        "tags": [
+          "client",
+          "high priority",
+          "campaign",
+          "deadline"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      },
+      {
+        "id": "topic_002",
+        "title": "FitFusion Rebranding Project",
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Leah",
+          "@Jordan"
+        ],
+        "summary": "Planning and execution of the FitFusion rebranding project, with a tight deadline of August 15, 2025.",
+        "action_items": [
+          {
+            "task": "Research current brand identity and competitors",
+            "owner": "@Sam",
+            "due_date": null
+          },
+          {
+            "task": "Prepare initial messaging ideas",
+            "owner": "@Leah",
+            "due_date": "July 2, 2025"
+          },
+          {
+            "task": "Review FitFusion contract",
+            "owner": "@Jordan",
+            "due_date": null
+          },
+          {
+            "task": "Design development",
+            "owner": "@Sam",
+            "due_date": "July 16, 2025"
+          },
+          {
+            "task": "Brand messaging framework",
+            "owner": "@Leah",
+            "due_date": "July 2, 2025"
+          },
+          {
+            "task": "Legal review of branding materials",
+            "owner": "@Jordan",
+            "due_date": "August 7, 2025"
+          },
+          {
+            "task": "Draft brand voice guidelines",
+            "owner": "@Leah",
+            "due_date": "June 26, 2025"
+          },
+          {
+            "task": "Logo designs and brand guidelines for legal review",
+            "owner": "@Sam",
+            "due_date": "July 30, 2025"
+          },
+          {
+            "task": "Trademark search",
+            "owner": "@Sam",
+            "due_date": "August 7, 2025"
+          },
+          {
+            "task": "First round of designs",
+            "owner": "@Sam",
+            "due_date": "July 5, 2025"
+          }
+        ],
+        "channel": "#campaign-briefs",
+        "messages": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "thread_root": 14,
+        "deadline": "August 15, 2025",
+        "tags": [
+          "client",
+          "high priority",
+          "rebranding",
+          "urgent",
+          "deadline"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      },
+      {
+        "id": "topic_003",
+        "title": "TechNova Product Launch Campaign",
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Leah",
+          "@Jordan"
+        ],
+        "summary": "Planning and execution of the TechNova product launch marketing campaign, with a deadline of September 10, 2025.",
+        "action_items": [
+          {
+            "task": "Develop ideas for campaign",
+            "owner": "@Sam",
+            "due_date": null
+          },
+          {
+            "task": "Research target audience and competitors",
+            "owner": "@Leah",
+            "due_date": null
+          },
+          {
+            "task": "Review TechNova agreement",
+            "owner": "@Jordan",
+            "due_date": null
+          },
+          {
+            "task": "Design development",
+            "owner": "@Sam",
+            "due_date": "August 12, 2025"
+          },
+          {
+            "task": "Product messaging framework",
+            "owner": "@Leah",
+            "due_date": "July 22, 2025"
+          },
+          {
+            "task": "Legal review of marketing materials",
+            "owner": "@Jordan",
+            "due_date": "September 2, 2025"
+          },
+          {
+            "task": "Draft product description and key messaging points",
+            "owner": "@Leah",
+            "due_date": "July 8, 2025"
+          },
+          {
+            "task": "Product packaging and promotional materials for legal review",
+            "owner": "@Sam",
+            "due_date": "August 26, 2025"
+          },
+          {
+            "task": "First round of designs",
+            "owner": "@Sam",
+            "due_date": "August 5, 2025"
+          }
+        ],
+        "channel": "#campaign-briefs",
+        "messages": [
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "thread_root": 29,
+        "deadline": "September 10, 2025",
+        "tags": [
+          "client",
+          "high priority",
+          "campaign",
+          "product launch",
+          "deadline"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      },
+      {
+        "id": "topic_004",
+        "title": "GreenScape Sustainability Report",
+        "participants": [
+          "@Devon",
+          "@Leah",
+          "@Sam",
+          "@Jordan"
+        ],
+        "summary": "Preparation of GreenScape's annual sustainability report, with a deadline of August 30, 2025.",
+        "action_items": [
+          {
+            "task": "Prepare questions for client call",
+            "owner": "@Leah",
+            "due_date": null
+          },
+          {
+            "task": "Research GreenScape's previous reports",
+            "owner": "@Leah",
+            "due_date": null
+          },
+          {
+            "task": "Help with data visualization and design elements",
+            "owner": "@Sam",
+            "due_date": null
+          },
+          {
+            "task": "Review GreenScape's sustainability reporting requirements",
+            "owner": "@Jordan",
+            "due_date": null
+          },
+          {
+            "task": "Draft content for sustainability report",
+            "owner": "@Leah",
+            "due_date": "August 10, 2025"
+          },
+          {
+            "task": "Complete design and data visualization for report",
+            "owner": "@Sam",
+            "due_date": null
+          }
+        ],
+        "channel": "#client-communications",
+        "messages": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "thread_root": 44,
+        "deadline": "August 30, 2025",
+        "tags": [
+          "client",
+          "high priority",
+          "sustainability report",
+          "deadline"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      }
+    ],
+    "json_valid": true,
+    "topics_found": 4,
+    "duration": 14.595369577407837,
+    "timestamp": 1755744308.1695313
+  },
+  "google_gemini-1.5-pro": {
+    "provider": "google",
+    "model": "gemini-1.5-pro",
+    "response": "```json\n{\n  \"topics\": [\n    {\n      \"id\": \"topic_001\",\n      \"title\": \"EcoBloom Summer Campaign\",\n      \"participants\": [\"@Devon\", \"@Sam\", \"@Leah\", \"@Jordan\"],\n      \"summary\": \"Planning and execution of the EcoBloom summer campaign, including design, content, legal review, and meeting coordination.\",\n      \"action_items\": [\n        {\n          \"task\": \"Initial design concepts\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-06-25\"\n        },\n        {\n          \"task\": \"Content strategy\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"2025-06-30\"\n        },\n        {\n          \"task\": \"Contract review\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": \"2025-07-14\"\n        },\n        {\n          \"task\": \"Final content\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"2025-07-07\"\n        },\n        {\n          \"task\": \"Final designs\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-07-21\"\n\n        }\n\n      ],\n      \"channel\": \"#campaign-briefs\",\n      \"messages\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],\n      \"thread_root\": 1,\n      \"deadline\": \"2025-07-28\",\n      \"tags\": [\"campaign\", \"client\", \"high priority\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    },\n    {\n      \"id\": \"topic_002\",\n      \"title\": \"FitFusion Rebranding Project\",\n      \"participants\": [\"@Devon\", \"@Sam\", \"@Leah\", \"@Jordan\"],\n      \"summary\": \"Rebranding project for FitFusion, including brand identity research, messaging, design, legal review, and timeline management.\",\n      \"action_items\": [\n        {\n          \"task\": \"Brand identity research\",\n          \"owner\": \"@Sam\",\n          \"due_date\": null\n        },\n        {\n          \"task\": \"Initial messaging ideas\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"2025-07-02\"\n        },\n        {\n          \"task\": \"Contract review\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": \"2025-08-07\"\n        },\n        {\n          \"task\": \"Design development\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-07-16\"\n        },\n{\n          \"task\": \"Brand voice guidelines\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"2025-06-26\"\n        },\n        {\n          \"task\": \"Logo designs and brand guidelines\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-07-30\"\n        },\n{\n          \"task\": \"Trademark search\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": \"2025-08-07\"\n        }\n\n\n      ],\n      \"channel\": \"#campaign-briefs\",\n      \"messages\": [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],\n      \"thread_root\": 14,\n      \"deadline\": \"2025-08-15\",\n      \"tags\": [\"rebranding\", \"client\", \"urgent\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    },\n    {\n      \"id\": \"topic_003\",\n      \"title\": \"TechNova Product Launch\",\n      \"participants\": [\"@Devon\", \"@Sam\", \"@Leah\", \"@Jordan\"],\n      \"summary\": \"Marketing campaign for TechNova's new smart home device launch, including design, messaging, legal review, and timeline management.\",\n      \"action_items\": [\n {\n          \"task\": \"Design development\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-08-12\"\n        },\n        {\n          \"task\": \"Product messaging framework\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"2025-07-22\"\n        },\n        {\n          \"task\": \"Agreement review\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": \"2025-09-02\"\n        },\n{\n          \"task\": \"Product packaging and promotional materials\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-08-26\"\n        },\n{\n          \"task\": \"Tech advertising compliance review\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": \"2025-09-02\"\n        },\n{\n          \"task\": \"Product description and key messaging\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"2025-07-08\"\n        }\n\n      ],\n      \"channel\": \"#campaign-briefs\",\n      \"messages\": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],\n      \"thread_root\": 29,\n      \"deadline\": \"2025-09-10\",\n      \"tags\": [\"product launch\", \"client\", \"high priority\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    },\n        {\n      \"id\": \"topic_004\",\n      \"title\": \"GreenScape Sustainability Report\",\n      \"participants\": [\"@Devon\", \"@Sam\", \"@Leah\", \"@Jordan\"],\n      \"summary\": \"Creating GreenScape's annual sustainability report, including data visualization, content creation, legal review, and client communication.\",\n      \"action_items\": [\n{\n          \"task\": \"Prepare questions for client call\",\n          \"owner\": \"@Leah\",\n          \"due_date\": null\n        },\n        {\n          \"task\": \"Research GreenScape's previous reports\",\n          \"owner\": \"@Leah\",\n          \"due_date\": null\n        },\n        {\n          \"task\": \"Data visualization and design\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-08-30\"\n        },\n        {\n          \"task\": \"Review sustainability reporting requirements\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": null\n        },\n        {\n          \"task\": \"Draft content\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"2025-08-10\"\n\n        }\n\n      ],\n      \"channel\": \"#client-communications\",\n      \"messages\": [44, 45, 46, 47, 48, 49, 50],\n      \"thread_root\": 44,\n      \"deadline\": \"2025-08-30\",\n      \"tags\": [\"sustainability report\", \"client\", \"high priority\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    }\n\n  ]\n}\n```",
+    "parsed_response": [
+      {
+        "id": "topic_001",
+        "title": "EcoBloom Summer Campaign",
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Leah",
+          "@Jordan"
+        ],
+        "summary": "Planning and execution of the EcoBloom summer campaign, including design, content, legal review, and meeting coordination.",
+        "action_items": [
+          {
+            "task": "Initial design concepts",
+            "owner": "@Sam",
+            "due_date": "2025-06-25"
+          },
+          {
+            "task": "Content strategy",
+            "owner": "@Leah",
+            "due_date": "2025-06-30"
+          },
+          {
+            "task": "Contract review",
+            "owner": "@Jordan",
+            "due_date": "2025-07-14"
+          },
+          {
+            "task": "Final content",
+            "owner": "@Leah",
+            "due_date": "2025-07-07"
+          },
+          {
+            "task": "Final designs",
+            "owner": "@Sam",
+            "due_date": "2025-07-21"
+          }
+        ],
+        "channel": "#campaign-briefs",
+        "messages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "thread_root": 1,
+        "deadline": "2025-07-28",
+        "tags": [
+          "campaign",
+          "client",
+          "high priority"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      },
+      {
+        "id": "topic_002",
+        "title": "FitFusion Rebranding Project",
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Leah",
+          "@Jordan"
+        ],
+        "summary": "Rebranding project for FitFusion, including brand identity research, messaging, design, legal review, and timeline management.",
+        "action_items": [
+          {
+            "task": "Brand identity research",
+            "owner": "@Sam",
+            "due_date": null
+          },
+          {
+            "task": "Initial messaging ideas",
+            "owner": "@Leah",
+            "due_date": "2025-07-02"
+          },
+          {
+            "task": "Contract review",
+            "owner": "@Jordan",
+            "due_date": "2025-08-07"
+          },
+          {
+            "task": "Design development",
+            "owner": "@Sam",
+            "due_date": "2025-07-16"
+          },
+          {
+            "task": "Brand voice guidelines",
+            "owner": "@Leah",
+            "due_date": "2025-06-26"
+          },
+          {
+            "task": "Logo designs and brand guidelines",
+            "owner": "@Sam",
+            "due_date": "2025-07-30"
+          },
+          {
+            "task": "Trademark search",
+            "owner": "@Jordan",
+            "due_date": "2025-08-07"
+          }
+        ],
+        "channel": "#campaign-briefs",
+        "messages": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "thread_root": 14,
+        "deadline": "2025-08-15",
+        "tags": [
+          "rebranding",
+          "client",
+          "urgent"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      },
+      {
+        "id": "topic_003",
+        "title": "TechNova Product Launch",
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Leah",
+          "@Jordan"
+        ],
+        "summary": "Marketing campaign for TechNova's new smart home device launch, including design, messaging, legal review, and timeline management.",
+        "action_items": [
+          {
+            "task": "Design development",
+            "owner": "@Sam",
+            "due_date": "2025-08-12"
+          },
+          {
+            "task": "Product messaging framework",
+            "owner": "@Leah",
+            "due_date": "2025-07-22"
+          },
+          {
+            "task": "Agreement review",
+            "owner": "@Jordan",
+            "due_date": "2025-09-02"
+          },
+          {
+            "task": "Product packaging and promotional materials",
+            "owner": "@Sam",
+            "due_date": "2025-08-26"
+          },
+          {
+            "task": "Tech advertising compliance review",
+            "owner": "@Jordan",
+            "due_date": "2025-09-02"
+          },
+          {
+            "task": "Product description and key messaging",
+            "owner": "@Leah",
+            "due_date": "2025-07-08"
+          }
+        ],
+        "channel": "#campaign-briefs",
+        "messages": [
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "thread_root": 29,
+        "deadline": "2025-09-10",
+        "tags": [
+          "product launch",
+          "client",
+          "high priority"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      },
+      {
+        "id": "topic_004",
+        "title": "GreenScape Sustainability Report",
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Leah",
+          "@Jordan"
+        ],
+        "summary": "Creating GreenScape's annual sustainability report, including data visualization, content creation, legal review, and client communication.",
+        "action_items": [
+          {
+            "task": "Prepare questions for client call",
+            "owner": "@Leah",
+            "due_date": null
+          },
+          {
+            "task": "Research GreenScape's previous reports",
+            "owner": "@Leah",
+            "due_date": null
+          },
+          {
+            "task": "Data visualization and design",
+            "owner": "@Sam",
+            "due_date": "2025-08-30"
+          },
+          {
+            "task": "Review sustainability reporting requirements",
+            "owner": "@Jordan",
+            "due_date": null
+          },
+          {
+            "task": "Draft content",
+            "owner": "@Leah",
+            "due_date": "2025-08-10"
+          }
+        ],
+        "channel": "#client-communications",
+        "messages": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "thread_root": 44,
+        "deadline": "2025-08-30",
+        "tags": [
+          "sustainability report",
+          "client",
+          "high priority"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      }
+    ],
+    "json_valid": true,
+    "topics_found": 4,
+    "duration": 21.179126024246216,
+    "timestamp": 1755744331.3507597
+  },
+  "google_gemini-1.5-flash-latest": {
+    "provider": "google",
+    "model": "gemini-1.5-flash-latest",
+    "response": "```json\n{\n  \"topics\": [\n    {\n      \"id\": \"topic_001\",\n      \"title\": \"EcoBloom Summer Campaign\",\n      \"participants\": [\"@Devon\", \"@Sam\", \"@Leah\", \"@Jordan\"],\n      \"summary\": \"Planning and execution of the EcoBloom summer marketing campaign with a deadline of July 28, 2025.\",\n      \"action_items\": [\n        {\n          \"task\": \"Prepare initial design concepts\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"June 25, 2025\"\n        },\n        {\n          \"task\": \"Draft content strategy\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"June 30, 2025\"\n        },\n        {\n          \"task\": \"Review EcoBloom contract\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": \"July 14, 2025\"\n        },\n        {\n          \"task\": \"Complete designs\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"July 21, 2025\"\n        },\n        {\n          \"task\": \"Final content for design completion\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"July 10, 2025\"\n        },\n        {\n          \"task\": \"Provide all marketing materials for legal review\",\n          \"owner\": \"@Leah, @Sam\",\n          \"due_date\": \"July 7, 2025\"\n        }\n      ],\n      \"channel\": \"#campaign-briefs\",\n      \"messages\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],\n      \"thread_root\": 1,\n      \"deadline\": \"2025-07-28\",\n      \"tags\": [\"client\", \"campaign\", \"high priority\", \"deadline\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    },\n    {\n      \"id\": \"topic_002\",\n      \"title\": \"FitFusion Rebranding Project\",\n      \"participants\": [\"@Devon\", \"@Sam\", \"@Leah\", \"@Jordan\"],\n      \"summary\": \"Rebranding project for FitFusion with a deadline of August 15, 2025.\",\n      \"action_items\": [\n        {\n          \"task\": \"Research current brand identity and competitors\",\n          \"owner\": \"@Sam\",\n          \"due_date\": null\n        },\n        {\n          \"task\": \"Prepare initial messaging ideas\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"July 2, 2025\"\n        },\n        {\n          \"task\": \"Review FitFusion contract\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": null\n        },\n        {\n          \"task\": \"Design development\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"July 16, 2025\"\n        },\n        {\n          \"task\": \"Brand messaging framework\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"July 2, 2025\"\n        },\n        {\n          \"task\": \"Legal review of all branding materials\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": \"August 7, 2025\"\n        },\n        {\n          \"task\": \"Logo designs and brand guidelines for legal review\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"July 30, 2025\"\n        },\n        {\n          \"task\": \"Draft brand voice guidelines\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"June 26, 2025\"\n        },\n        {\n          \"task\": \"First round of designs for review\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"July 5, 2025\"\n        }\n      ],\n      \"channel\": \"#campaign-briefs\",\n      \"messages\": [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],\n      \"thread_root\": 14,\n      \"deadline\": \"2025-08-15\",\n      \"tags\": [\"client\", \"rebranding\", \"high priority\", \"urgent\", \"deadline\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    },\n    {\n      \"id\": \"topic_003\",\n      \"title\": \"TechNova Product Launch\",\n      \"participants\": [\"@Devon\", \"@Sam\", \"@Leah\", \"@Jordan\"],\n      \"summary\": \"Marketing campaign for TechNova's new smart home device launching on September 10, 2025.\",\n      \"action_items\": [\n        {\n          \"task\": \"Design development\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"August 12, 2025\"\n        },\n        {\n          \"task\": \"Product messaging framework\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"July 22, 2025\"\n        },\n        {\n          \"task\": \"Legal review of all marketing materials\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": \"September 2, 2025\"\n        },\n        {\n          \"task\": \"Product packaging and promotional materials for legal review\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"August 26, 2025\"\n        },\n        {\n          \"task\": \"Draft product description and key messaging points\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"July 8, 2025\"\n        },\n        {\n          \"task\": \"First round of designs for review\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"August 5, 2025\"\n        }\n      ],\n      \"channel\": \"#campaign-briefs\",\n      \"messages\": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],\n      \"thread_root\": 29,\n      \"deadline\": \"2025-09-10\",\n      \"tags\": [\"client\", \"product launch\", \"high priority\", \"deadline\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    },\n    {\n      \"id\": \"topic_004\",\n      \"title\": \"GreenScape Sustainability Report\",\n      \"participants\": [\"@Devon\", \"@Leah\", \"@Sam\", \"@Jordan\"],\n      \"summary\": \"Creating a sustainability report for GreenScape with a deadline of August 30, 2025.\",\n      \"action_items\": [\n        {\n          \"task\": \"Prepare questions for client call and research GreenScape's previous reports\",\n          \"owner\": \"@Leah\",\n          \"due_date\": null\n        },\n        {\n          \"task\": \"Help with data visualization and design elements\",\n          \"owner\": \"@Sam\",\n          \"due_date\": null\n        },\n        {\n          \"task\": \"Review GreenScape's sustainability reporting requirements\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": null\n        },\n        {\n          \"task\": \"Draft content for sustainability report\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"August 10, 2025\"\n        },\n        {\n          \"task\": \"Complete design and data visualization\",\n          \"owner\": \"@Sam\",\n          \"due_date\": null\n        }\n\n      ],\n      \"channel\": \"#client-communications\",\n      \"messages\": [44, 45, 46, 47, 48, 49, 50],\n      \"thread_root\": 44,\n      \"deadline\": \"2025-08-30\",\n      \"tags\": [\"client\", \"sustainability report\", \"high priority\", \"deadline\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    }\n  ]\n}\n```\n",
+    "parsed_response": [
+      {
+        "id": "topic_001",
+        "title": "EcoBloom Summer Campaign",
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Leah",
+          "@Jordan"
+        ],
+        "summary": "Planning and execution of the EcoBloom summer marketing campaign with a deadline of July 28, 2025.",
+        "action_items": [
+          {
+            "task": "Prepare initial design concepts",
+            "owner": "@Sam",
+            "due_date": "June 25, 2025"
+          },
+          {
+            "task": "Draft content strategy",
+            "owner": "@Leah",
+            "due_date": "June 30, 2025"
+          },
+          {
+            "task": "Review EcoBloom contract",
+            "owner": "@Jordan",
+            "due_date": "July 14, 2025"
+          },
+          {
+            "task": "Complete designs",
+            "owner": "@Sam",
+            "due_date": "July 21, 2025"
+          },
+          {
+            "task": "Final content for design completion",
+            "owner": "@Leah",
+            "due_date": "July 10, 2025"
+          },
+          {
+            "task": "Provide all marketing materials for legal review",
+            "owner": "@Leah, @Sam",
+            "due_date": "July 7, 2025"
+          }
+        ],
+        "channel": "#campaign-briefs",
+        "messages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "thread_root": 1,
+        "deadline": "2025-07-28",
+        "tags": [
+          "client",
+          "campaign",
+          "high priority",
+          "deadline"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      },
+      {
+        "id": "topic_002",
+        "title": "FitFusion Rebranding Project",
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Leah",
+          "@Jordan"
+        ],
+        "summary": "Rebranding project for FitFusion with a deadline of August 15, 2025.",
+        "action_items": [
+          {
+            "task": "Research current brand identity and competitors",
+            "owner": "@Sam",
+            "due_date": null
+          },
+          {
+            "task": "Prepare initial messaging ideas",
+            "owner": "@Leah",
+            "due_date": "July 2, 2025"
+          },
+          {
+            "task": "Review FitFusion contract",
+            "owner": "@Jordan",
+            "due_date": null
+          },
+          {
+            "task": "Design development",
+            "owner": "@Sam",
+            "due_date": "July 16, 2025"
+          },
+          {
+            "task": "Brand messaging framework",
+            "owner": "@Leah",
+            "due_date": "July 2, 2025"
+          },
+          {
+            "task": "Legal review of all branding materials",
+            "owner": "@Jordan",
+            "due_date": "August 7, 2025"
+          },
+          {
+            "task": "Logo designs and brand guidelines for legal review",
+            "owner": "@Sam",
+            "due_date": "July 30, 2025"
+          },
+          {
+            "task": "Draft brand voice guidelines",
+            "owner": "@Leah",
+            "due_date": "June 26, 2025"
+          },
+          {
+            "task": "First round of designs for review",
+            "owner": "@Sam",
+            "due_date": "July 5, 2025"
+          }
+        ],
+        "channel": "#campaign-briefs",
+        "messages": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "thread_root": 14,
+        "deadline": "2025-08-15",
+        "tags": [
+          "client",
+          "rebranding",
+          "high priority",
+          "urgent",
+          "deadline"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      },
+      {
+        "id": "topic_003",
+        "title": "TechNova Product Launch",
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Leah",
+          "@Jordan"
+        ],
+        "summary": "Marketing campaign for TechNova's new smart home device launching on September 10, 2025.",
+        "action_items": [
+          {
+            "task": "Design development",
+            "owner": "@Sam",
+            "due_date": "August 12, 2025"
+          },
+          {
+            "task": "Product messaging framework",
+            "owner": "@Leah",
+            "due_date": "July 22, 2025"
+          },
+          {
+            "task": "Legal review of all marketing materials",
+            "owner": "@Jordan",
+            "due_date": "September 2, 2025"
+          },
+          {
+            "task": "Product packaging and promotional materials for legal review",
+            "owner": "@Sam",
+            "due_date": "August 26, 2025"
+          },
+          {
+            "task": "Draft product description and key messaging points",
+            "owner": "@Leah",
+            "due_date": "July 8, 2025"
+          },
+          {
+            "task": "First round of designs for review",
+            "owner": "@Sam",
+            "due_date": "August 5, 2025"
+          }
+        ],
+        "channel": "#campaign-briefs",
+        "messages": [
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "thread_root": 29,
+        "deadline": "2025-09-10",
+        "tags": [
+          "client",
+          "product launch",
+          "high priority",
+          "deadline"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      },
+      {
+        "id": "topic_004",
+        "title": "GreenScape Sustainability Report",
+        "participants": [
+          "@Devon",
+          "@Leah",
+          "@Sam",
+          "@Jordan"
+        ],
+        "summary": "Creating a sustainability report for GreenScape with a deadline of August 30, 2025.",
+        "action_items": [
+          {
+            "task": "Prepare questions for client call and research GreenScape's previous reports",
+            "owner": "@Leah",
+            "due_date": null
+          },
+          {
+            "task": "Help with data visualization and design elements",
+            "owner": "@Sam",
+            "due_date": null
+          },
+          {
+            "task": "Review GreenScape's sustainability reporting requirements",
+            "owner": "@Jordan",
+            "due_date": null
+          },
+          {
+            "task": "Draft content for sustainability report",
+            "owner": "@Leah",
+            "due_date": "August 10, 2025"
+          },
+          {
+            "task": "Complete design and data visualization",
+            "owner": "@Sam",
+            "due_date": null
+          }
+        ],
+        "channel": "#client-communications",
+        "messages": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "thread_root": 44,
+        "deadline": "2025-08-30",
+        "tags": [
+          "client",
+          "sustainability report",
+          "high priority",
+          "deadline"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      }
+    ],
+    "json_valid": true,
+    "topics_found": 4,
+    "duration": 12.622617483139038,
+    "timestamp": 1755744345.975486
+  },
+  "google_gemini-1.5-pro-latest": {
+    "provider": "google",
+    "model": "gemini-1.5-pro-latest",
+    "response": "```json\n{\n  \"topics\": [\n    {\n      \"id\": \"topic_001\",\n      \"title\": \"EcoBloom Summer Campaign\",\n      \"participants\": [\"@Devon\", \"@Sam\", \"@Leah\", \"@Jordan\"],\n      \"summary\": \"Planning and execution of the EcoBloom summer campaign, including design, content creation, and legal review. High priority project with a firm deadline.\",\n      \"action_items\": [\n        {\n          \"task\": \"Initial content creation\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"2025-06-30\"\n        },\n        {\n          \"task\": \"Initial design concepts\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-06-25\"\n        },\n        {\n          \"task\": \"Legal review of marketing materials\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": \"2025-07-14\"\n        },\n        {\n          \"task\": \"Final content delivery\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"2025-07-07\"\n\n        },\n        {\n          \"task\": \"Final designs\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-07-21\"\n        }\n\n\n      ],\n      \"channel\": \"#campaign-briefs\",\n      \"messages\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],\n      \"thread_root\": 1,\n      \"deadline\": \"2025-07-28\",\n      \"tags\": [\"client\", \"campaign\", \"high priority\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    },\n    {\n      \"id\": \"topic_002\",\n      \"title\": \"FitFusion Rebranding Project\",\n      \"participants\": [\"@Devon\", \"@Sam\", \"@Leah\", \"@Jordan\"],\n      \"summary\": \"Rebranding project for FitFusion, including brand identity research, messaging, design, and legal review. Urgent project with a tight timeline.\",\n      \"action_items\": [\n        {\n          \"task\": \"Brand messaging framework\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"2025-07-02\"\n        },\n        {\n          \"task\": \"Initial design concepts\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-07-05\"\n\n        },\n         {\n          \"task\": \"Brand voice guidelines\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"2025-06-26\"\n        },\n        {\n          \"task\": \"Legal review of branding materials\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": \"2025-08-07\"\n        },\n        {\n          \"task\": \"Trademark search\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": \"2025-08-07\"\n        },\n        {\n          \"task\": \"Logo designs and brand guidelines\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-07-30\"\n        }\n      ],\n      \"channel\": \"#campaign-briefs\",\n      \"messages\": [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],\n      \"thread_root\": 14,\n      \"deadline\": \"2025-08-15\",\n      \"tags\": [\"client\", \"rebranding\", \"urgent\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    },\n    {\n      \"id\": \"topic_003\",\n      \"title\": \"TechNova Product Launch\",\n      \"participants\": [\"@Devon\", \"@Sam\", \"@Leah\", \"@Jordan\"],\n      \"summary\": \"Marketing campaign for TechNova's new smart home device launch, including design, messaging, and legal review. High priority project with significant revenue potential.\",\n      \"action_items\": [\n        {\n          \"task\": \"Product messaging framework\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"2025-07-22\"\n        },\n        {\n          \"task\": \"Initial design concepts\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-08-05\"\n        },\n        {\n          \"task\": \"Legal review of marketing materials\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": \"2025-09-02\"\n        },\n        {\n          \"task\": \"Product description and key messaging\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"2025-07-08\"\n        },\n         {\n          \"task\": \"Product packaging and promotional materials\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-08-26\"\n        }\n      ],\n      \"channel\": \"#campaign-briefs\",\n      \"messages\": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],\n      \"thread_root\": 29,\n      \"deadline\": \"2025-09-10\",\n      \"tags\": [\"client\", \"product launch\", \"high priority\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    },\n    {\n      \"id\": \"topic_004\",\n      \"title\": \"GreenScape Sustainability Report\",\n      \"participants\": [\"@Devon\", \"@Leah\", \"@Sam\", \"@Jordan\"],\n      \"summary\": \"Creating GreenScape's annual sustainability report, including data visualization, content creation, and legal review. High priority project for GreenScape's stakeholders.\",\n      \"action_items\": [\n        {\n          \"task\": \"Draft sustainability report content\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"2025-08-10\"\n        },\n        {\n          \"task\": \"Design and data visualization\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-08-30\"\n        }\n\n      ],\n      \"channel\": \"#client-communications\",\n      \"messages\": [44, 45, 46, 47, 48, 49, 50],\n      \"thread_root\": 44,\n      \"deadline\": \"2025-08-30\",\n      \"tags\": [\"client\", \"sustainability report\", \"high priority\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    }\n  ]\n}\n```",
+    "parsed_response": [
+      {
+        "id": "topic_001",
+        "title": "EcoBloom Summer Campaign",
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Leah",
+          "@Jordan"
+        ],
+        "summary": "Planning and execution of the EcoBloom summer campaign, including design, content creation, and legal review. High priority project with a firm deadline.",
+        "action_items": [
+          {
+            "task": "Initial content creation",
+            "owner": "@Leah",
+            "due_date": "2025-06-30"
+          },
+          {
+            "task": "Initial design concepts",
+            "owner": "@Sam",
+            "due_date": "2025-06-25"
+          },
+          {
+            "task": "Legal review of marketing materials",
+            "owner": "@Jordan",
+            "due_date": "2025-07-14"
+          },
+          {
+            "task": "Final content delivery",
+            "owner": "@Leah",
+            "due_date": "2025-07-07"
+          },
+          {
+            "task": "Final designs",
+            "owner": "@Sam",
+            "due_date": "2025-07-21"
+          }
+        ],
+        "channel": "#campaign-briefs",
+        "messages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "thread_root": 1,
+        "deadline": "2025-07-28",
+        "tags": [
+          "client",
+          "campaign",
+          "high priority"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      },
+      {
+        "id": "topic_002",
+        "title": "FitFusion Rebranding Project",
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Leah",
+          "@Jordan"
+        ],
+        "summary": "Rebranding project for FitFusion, including brand identity research, messaging, design, and legal review. Urgent project with a tight timeline.",
+        "action_items": [
+          {
+            "task": "Brand messaging framework",
+            "owner": "@Leah",
+            "due_date": "2025-07-02"
+          },
+          {
+            "task": "Initial design concepts",
+            "owner": "@Sam",
+            "due_date": "2025-07-05"
+          },
+          {
+            "task": "Brand voice guidelines",
+            "owner": "@Leah",
+            "due_date": "2025-06-26"
+          },
+          {
+            "task": "Legal review of branding materials",
+            "owner": "@Jordan",
+            "due_date": "2025-08-07"
+          },
+          {
+            "task": "Trademark search",
+            "owner": "@Jordan",
+            "due_date": "2025-08-07"
+          },
+          {
+            "task": "Logo designs and brand guidelines",
+            "owner": "@Sam",
+            "due_date": "2025-07-30"
+          }
+        ],
+        "channel": "#campaign-briefs",
+        "messages": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "thread_root": 14,
+        "deadline": "2025-08-15",
+        "tags": [
+          "client",
+          "rebranding",
+          "urgent"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      },
+      {
+        "id": "topic_003",
+        "title": "TechNova Product Launch",
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Leah",
+          "@Jordan"
+        ],
+        "summary": "Marketing campaign for TechNova's new smart home device launch, including design, messaging, and legal review. High priority project with significant revenue potential.",
+        "action_items": [
+          {
+            "task": "Product messaging framework",
+            "owner": "@Leah",
+            "due_date": "2025-07-22"
+          },
+          {
+            "task": "Initial design concepts",
+            "owner": "@Sam",
+            "due_date": "2025-08-05"
+          },
+          {
+            "task": "Legal review of marketing materials",
+            "owner": "@Jordan",
+            "due_date": "2025-09-02"
+          },
+          {
+            "task": "Product description and key messaging",
+            "owner": "@Leah",
+            "due_date": "2025-07-08"
+          },
+          {
+            "task": "Product packaging and promotional materials",
+            "owner": "@Sam",
+            "due_date": "2025-08-26"
+          }
+        ],
+        "channel": "#campaign-briefs",
+        "messages": [
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "thread_root": 29,
+        "deadline": "2025-09-10",
+        "tags": [
+          "client",
+          "product launch",
+          "high priority"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      },
+      {
+        "id": "topic_004",
+        "title": "GreenScape Sustainability Report",
+        "participants": [
+          "@Devon",
+          "@Leah",
+          "@Sam",
+          "@Jordan"
+        ],
+        "summary": "Creating GreenScape's annual sustainability report, including data visualization, content creation, and legal review. High priority project for GreenScape's stakeholders.",
+        "action_items": [
+          {
+            "task": "Draft sustainability report content",
+            "owner": "@Leah",
+            "due_date": "2025-08-10"
+          },
+          {
+            "task": "Design and data visualization",
+            "owner": "@Sam",
+            "due_date": "2025-08-30"
+          }
+        ],
+        "channel": "#client-communications",
+        "messages": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "thread_root": 44,
+        "deadline": "2025-08-30",
+        "tags": [
+          "client",
+          "sustainability report",
+          "high priority"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      }
+    ],
+    "json_valid": true,
+    "topics_found": 4,
+    "duration": 19.731658220291138,
+    "timestamp": 1755744367.7092588
+  },
+  "google_gemini-2.0-flash": {
+    "provider": "google",
+    "model": "gemini-2.0-flash",
+    "response": "```json\n{\n  \"topics\": [\n    {\n      \"id\": \"topic_001\",\n      \"title\": \"EcoBloom Summer Campaign\",\n      \"participants\": [\"@Devon\", \"@Sam\", \"@Leah\", \"@Jordan\"],\n      \"summary\": \"Discussion and planning for the EcoBloom summer marketing campaign, focusing on content creation, design, and legal review. The campaign deadline is July 28, 2025.\",\n      \"action_items\": [\n        {\n          \"task\": \"Prepare initial ideas and availability for the next two months for the kickoff meeting.\",\n          \"owner\": \"@team\",\n          \"due_date\": \"N/A\"\n        },\n        {\n          \"task\": \"Provide final content for designs.\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"July 10, 2025\"\n        },\n        {\n          \"task\": \"Complete legal review.\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": \"July 14, 2025\"\n        },\n        {\n          \"task\": \"Have content ready for review.\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"June 30, 2025\"\n        },\n        {\n          \"task\": \"Get Designs Ready\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"July 21, 2025\"\n        },\n        {\n          \"task\": \"Have designs ready for review.\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"June 25, 2025\"\n        }\n      ],\n      \"channel\": \"#campaign-briefs\",\n      \"messages\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],\n      \"thread_root\": 1,\n      \"deadline\": \"2025-07-28\",\n      \"tags\": [\"campaign\", \"ecobloom\", \"summer\", \"marketing\", \"legal\", \"design\", \"content\", \"high priority\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    },\n    {\n      \"id\": \"topic_002\",\n      \"title\": \"FitFusion Rebranding Project\",\n      \"participants\": [\"@Devon\", \"@Sam\", \"@Leah\", \"@Jordan\"],\n      \"summary\": \"Planning and execution of the FitFusion rebranding project, including brand identity research, messaging development, design, and legal compliance. The launch date is August 15, 2025.\",\n      \"action_items\": [\n        {\n          \"task\": \"Prepare initial messaging ideas for rebrand.\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"N/A\"\n        },\n        {\n          \"task\": \"Provide logo designs and brand guidelines for legal review.\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"July 30, 2025\"\n        },\n        {\n          \"task\": \"Complete legal review of branding materials\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": \"August 7, 2025\"\n        },\n        {\n          \"task\": \"Draft brand voice guidelines\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"June 26, 2025\"\n        },\n        {\n          \"task\": \"First round of designs ready for review\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"July 5, 2025\"\n        },\n        {\n          \"task\": \"Start designs\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"June 25, 2025\"\n        }\n      ],\n      \"channel\": \"#campaign-briefs\",\n      \"messages\": [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],\n      \"thread_root\": 14,\n      \"deadline\": \"2025-08-15\",\n      \"tags\": [\"rebranding\", \"fitfusion\", \"brand identity\", \"marketing\", \"legal\", \"design\", \"content\", \"urgent\", \"trademark\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    },\n    {\n      \"id\": \"topic_003\",\n      \"title\": \"TechNova Product Launch\",\n      \"participants\": [\"@Devon\", \"@Sam\", \"@Leah\", \"@Jordan\"],\n      \"summary\": \"Planning and execution of the TechNova product launch campaign, including design, messaging, and legal compliance for a new smart home device. The launch date is September 10, 2025.\",\n      \"action_items\": [\n        {\n          \"task\": \"Research target audience and competitors\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"N/A\"\n        },\n        {\n          \"task\": \"Provide product packaging and promotional materials for legal review\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"August 26, 2025\"\n        },\n        {\n          \"task\": \"Complete legal review of marketing materials\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": \"September 2, 2025\"\n        },\n        {\n          \"task\": \"Draft product description and key messaging points\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"July 8, 2025\"\n        },\n        {\n          \"task\": \"First round of designs ready for review\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"August 5, 2025\"\n        },\n        {\n          \"task\": \"Start Designs\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"July 15, 2025\"\n        }\n      ],\n      \"channel\": \"#campaign-briefs\",\n      \"messages\": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],\n      \"thread_root\": 29,\n      \"deadline\": \"2025-09-10\",\n      \"tags\": [\"product launch\", \"technova\", \"smart home\", \"marketing\", \"legal\", \"design\", \"content\", \"high priority\", \"compliance\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    },\n    {\n      \"id\": \"topic_004\",\n      \"title\": \"GreenScape Sustainability Report\",\n      \"participants\": [\"@Devon\", \"@Sam\", \"@Leah\", \"@Jordan\"],\n      \"summary\": \"Collaboration on the GreenScape annual sustainability report, focusing on data visualization, content creation, and compliance with reporting standards. The deadline is August 30, 2025.\",\n      \"action_items\": [\n        {\n          \"task\": \"Prepare questions for the client call and research previous reports.\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"N/A\"\n        },\n        {\n          \"task\": \"Draft the content\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"July 5, 2025\"\n        },\n        {\n          \"task\": \"Have final version ready\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"August 10, 2025\"\n        }\n      ],\n      \"channel\": \"#client-communications\",\n      \"messages\": [44, 45, 46, 47, 48, 49, 50],\n      \"thread_root\": 44,\n      \"deadline\": \"2025-08-30\",\n      \"tags\": [\"sustainability\", \"report\", \"greenscape\", \"client\", \"data visualization\", \"content\", \"compliance\", \"high priority\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    }\n  ]\n}\n```",
+    "parsed_response": [
+      {
+        "id": "topic_001",
+        "title": "EcoBloom Summer Campaign",
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Leah",
+          "@Jordan"
+        ],
+        "summary": "Discussion and planning for the EcoBloom summer marketing campaign, focusing on content creation, design, and legal review. The campaign deadline is July 28, 2025.",
+        "action_items": [
+          {
+            "task": "Prepare initial ideas and availability for the next two months for the kickoff meeting.",
+            "owner": "@team",
+            "due_date": "N/A"
+          },
+          {
+            "task": "Provide final content for designs.",
+            "owner": "@Leah",
+            "due_date": "July 10, 2025"
+          },
+          {
+            "task": "Complete legal review.",
+            "owner": "@Jordan",
+            "due_date": "July 14, 2025"
+          },
+          {
+            "task": "Have content ready for review.",
+            "owner": "@Leah",
+            "due_date": "June 30, 2025"
+          },
+          {
+            "task": "Get Designs Ready",
+            "owner": "@Sam",
+            "due_date": "July 21, 2025"
+          },
+          {
+            "task": "Have designs ready for review.",
+            "owner": "@Sam",
+            "due_date": "June 25, 2025"
+          }
+        ],
+        "channel": "#campaign-briefs",
+        "messages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "thread_root": 1,
+        "deadline": "2025-07-28",
+        "tags": [
+          "campaign",
+          "ecobloom",
+          "summer",
+          "marketing",
+          "legal",
+          "design",
+          "content",
+          "high priority"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      },
+      {
+        "id": "topic_002",
+        "title": "FitFusion Rebranding Project",
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Leah",
+          "@Jordan"
+        ],
+        "summary": "Planning and execution of the FitFusion rebranding project, including brand identity research, messaging development, design, and legal compliance. The launch date is August 15, 2025.",
+        "action_items": [
+          {
+            "task": "Prepare initial messaging ideas for rebrand.",
+            "owner": "@Leah",
+            "due_date": "N/A"
+          },
+          {
+            "task": "Provide logo designs and brand guidelines for legal review.",
+            "owner": "@Sam",
+            "due_date": "July 30, 2025"
+          },
+          {
+            "task": "Complete legal review of branding materials",
+            "owner": "@Jordan",
+            "due_date": "August 7, 2025"
+          },
+          {
+            "task": "Draft brand voice guidelines",
+            "owner": "@Leah",
+            "due_date": "June 26, 2025"
+          },
+          {
+            "task": "First round of designs ready for review",
+            "owner": "@Sam",
+            "due_date": "July 5, 2025"
+          },
+          {
+            "task": "Start designs",
+            "owner": "@Sam",
+            "due_date": "June 25, 2025"
+          }
+        ],
+        "channel": "#campaign-briefs",
+        "messages": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "thread_root": 14,
+        "deadline": "2025-08-15",
+        "tags": [
+          "rebranding",
+          "fitfusion",
+          "brand identity",
+          "marketing",
+          "legal",
+          "design",
+          "content",
+          "urgent",
+          "trademark"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      },
+      {
+        "id": "topic_003",
+        "title": "TechNova Product Launch",
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Leah",
+          "@Jordan"
+        ],
+        "summary": "Planning and execution of the TechNova product launch campaign, including design, messaging, and legal compliance for a new smart home device. The launch date is September 10, 2025.",
+        "action_items": [
+          {
+            "task": "Research target audience and competitors",
+            "owner": "@Leah",
+            "due_date": "N/A"
+          },
+          {
+            "task": "Provide product packaging and promotional materials for legal review",
+            "owner": "@Sam",
+            "due_date": "August 26, 2025"
+          },
+          {
+            "task": "Complete legal review of marketing materials",
+            "owner": "@Jordan",
+            "due_date": "September 2, 2025"
+          },
+          {
+            "task": "Draft product description and key messaging points",
+            "owner": "@Leah",
+            "due_date": "July 8, 2025"
+          },
+          {
+            "task": "First round of designs ready for review",
+            "owner": "@Sam",
+            "due_date": "August 5, 2025"
+          },
+          {
+            "task": "Start Designs",
+            "owner": "@Sam",
+            "due_date": "July 15, 2025"
+          }
+        ],
+        "channel": "#campaign-briefs",
+        "messages": [
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "thread_root": 29,
+        "deadline": "2025-09-10",
+        "tags": [
+          "product launch",
+          "technova",
+          "smart home",
+          "marketing",
+          "legal",
+          "design",
+          "content",
+          "high priority",
+          "compliance"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      },
+      {
+        "id": "topic_004",
+        "title": "GreenScape Sustainability Report",
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Leah",
+          "@Jordan"
+        ],
+        "summary": "Collaboration on the GreenScape annual sustainability report, focusing on data visualization, content creation, and compliance with reporting standards. The deadline is August 30, 2025.",
+        "action_items": [
+          {
+            "task": "Prepare questions for the client call and research previous reports.",
+            "owner": "@Leah",
+            "due_date": "N/A"
+          },
+          {
+            "task": "Draft the content",
+            "owner": "@Leah",
+            "due_date": "July 5, 2025"
+          },
+          {
+            "task": "Have final version ready",
+            "owner": "@Leah",
+            "due_date": "August 10, 2025"
+          }
+        ],
+        "channel": "#client-communications",
+        "messages": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "thread_root": 44,
+        "deadline": "2025-08-30",
+        "tags": [
+          "sustainability",
+          "report",
+          "greenscape",
+          "client",
+          "data visualization",
+          "content",
+          "compliance",
+          "high priority"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      }
+    ],
+    "json_valid": true,
+    "topics_found": 4,
+    "duration": 12.286346673965454,
+    "timestamp": 1755744381.9977796
+  },
+  "google_gemini-2.0-flash-001": {
+    "provider": "google",
+    "model": "gemini-2.0-flash-001",
+    "response": "```json\n{\n  \"topics\": [\n    {\n      \"id\": \"topic_001\",\n      \"title\": \"EcoBloom Summer Campaign\",\n      \"participants\": [\"@Devon\", \"@Sam\", \"@Leah\", \"@Jordan\"],\n      \"summary\": \"Discussion about the EcoBloom summer campaign, focusing on deliverables, timelines, and contract terms.\",\n      \"action_items\": [\n        {\n          \"task\": \"Final content\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"2025-06-30\"\n        },\n        {\n          \"task\": \"Complete designs\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-07-21\"\n        },\n        {\n          \"task\": \"Legal reviews\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": \"2025-07-14\"\n        },\n        {\n          \"task\": \"Provide marketing materials for legal review\",\n          \"owner\": \"@Leah and @Sam\",\n          \"due_date\": \"2025-07-07\"\n        },\n        {\n          \"task\": \"Review designs\",\n          \"owner\": \"@team\",\n          \"due_date\": null\n        }\n      ],\n      \"channel\": \"#campaign-briefs\",\n      \"messages\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],\n      \"thread_root\": 1,\n      \"deadline\": \"2025-07-28\",\n      \"tags\": [\"campaign\", \"client\", \"EcoBloom\", \"summer\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    },\n    {\n      \"id\": \"topic_002\",\n      \"title\": \"FitFusion Rebranding Project\",\n      \"participants\": [\"@Devon\", \"@Sam\", \"@Leah\", \"@Jordan\"],\n      \"summary\": \"Discussion about the FitFusion rebranding project, including brand identity, competitor research, messaging ideas, and legal compliance.\",\n      \"action_items\": [\n        {\n          \"task\": \"Brand messaging framework\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"2025-07-02\"\n        },\n        {\n          \"task\": \"Design development\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-07-16\"\n        },\n        {\n          \"task\": \"Provide all branding materials for legal review\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-07-30\"\n        },\n        {\n          \"task\": \"Complete legal review\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": \"2025-08-07\"\n        },\n        {\n          \"task\": \"Draft brand voice guidelines\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"2025-06-26\"\n        },\n        {\n          \"task\": \"Provide at least 3 logo variations with distinct elements for the trademark search\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-08-07\"\n        },\n        {\n          \"task\": \"Have first round of designs ready for review\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-07-05\"\n        }\n      ],\n      \"channel\": \"#campaign-briefs\",\n      \"messages\": [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],\n      \"thread_root\": 14,\n      \"deadline\": \"2025-08-15\",\n      \"tags\": [\"rebranding\", \"client\", \"FitFusion\", \"urgent\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    },\n    {\n      \"id\": \"topic_003\",\n      \"title\": \"TechNova Product Launch\",\n      \"participants\": [\"@Devon\", \"@Sam\", \"@Leah\", \"@Jordan\"],\n      \"summary\": \"Discussion about the TechNova product launch, including marketing campaign planning, design development, product messaging, and legal compliance.\",\n      \"action_items\": [\n        {\n          \"task\": \"Product messaging framework\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"2025-07-22\"\n        },\n        {\n          \"task\": \"Design development\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-08-12\"\n        },\n        {\n          \"task\": \"Provide all marketing materials for legal review\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-08-26\"\n        },\n        {\n          \"task\": \"Complete legal review\",\n          \"owner\": \"@Jordan\",\n          \"due_date\": \"2025-09-02\"\n        },\n        {\n          \"task\": \"Draft the product description and key messaging points\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"2025-07-08\"\n        },\n        {\n          \"task\": \"Provide detailed specifications for all claims\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-09-02\"\n        },\n        {\n          \"task\": \"Have first round of designs ready for review\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-08-05\"\n        }\n      ],\n      \"channel\": \"#campaign-briefs\",\n      \"messages\": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],\n      \"thread_root\": 29,\n      \"deadline\": \"2025-09-10\",\n      \"tags\": [\"product launch\", \"client\", \"TechNova\", \"smart home device\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    },\n    {\n      \"id\": \"topic_004\",\n      \"title\": \"GreenScape Sustainability Report\",\n      \"participants\": [\"@Devon\", \"@Leah\", \"@Sam\", \"@Jordan\"],\n      \"summary\": \"Discussion about GreenScape's annual sustainability report, including data collection, content creation, design, and compliance with reporting standards.\",\n      \"action_items\": [\n        {\n          \"task\": \"Draft the content\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"2025-07-05\"\n        },\n        {\n          \"task\": \"Final version of content\",\n          \"owner\": \"@Leah\",\n          \"due_date\": \"2025-08-10\"\n        },\n        {\n          \"task\": \"Complete the design and data visualization\",\n          \"owner\": \"@Sam\",\n          \"due_date\": \"2025-08-30\"\n        }\n      ],\n      \"channel\": \"#client-communications\",\n      \"messages\": [44, 45, 46, 47, 48, 49, 50],\n      \"thread_root\": 44,\n      \"deadline\": \"2025-08-30\",\n      \"tags\": [\"sustainability\", \"client\", \"GreenScape\", \"report\"],\n      \"status\": \"in progress\",\n      \"urgency\": \"high\"\n    }\n  ]\n}\n```",
+    "parsed_response": [
+      {
+        "id": "topic_001",
+        "title": "EcoBloom Summer Campaign",
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Leah",
+          "@Jordan"
+        ],
+        "summary": "Discussion about the EcoBloom summer campaign, focusing on deliverables, timelines, and contract terms.",
+        "action_items": [
+          {
+            "task": "Final content",
+            "owner": "@Leah",
+            "due_date": "2025-06-30"
+          },
+          {
+            "task": "Complete designs",
+            "owner": "@Sam",
+            "due_date": "2025-07-21"
+          },
+          {
+            "task": "Legal reviews",
+            "owner": "@Jordan",
+            "due_date": "2025-07-14"
+          },
+          {
+            "task": "Provide marketing materials for legal review",
+            "owner": "@Leah and @Sam",
+            "due_date": "2025-07-07"
+          },
+          {
+            "task": "Review designs",
+            "owner": "@team",
+            "due_date": null
+          }
+        ],
+        "channel": "#campaign-briefs",
+        "messages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "thread_root": 1,
+        "deadline": "2025-07-28",
+        "tags": [
+          "campaign",
+          "client",
+          "EcoBloom",
+          "summer"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      },
+      {
+        "id": "topic_002",
+        "title": "FitFusion Rebranding Project",
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Leah",
+          "@Jordan"
+        ],
+        "summary": "Discussion about the FitFusion rebranding project, including brand identity, competitor research, messaging ideas, and legal compliance.",
+        "action_items": [
+          {
+            "task": "Brand messaging framework",
+            "owner": "@Leah",
+            "due_date": "2025-07-02"
+          },
+          {
+            "task": "Design development",
+            "owner": "@Sam",
+            "due_date": "2025-07-16"
+          },
+          {
+            "task": "Provide all branding materials for legal review",
+            "owner": "@Sam",
+            "due_date": "2025-07-30"
+          },
+          {
+            "task": "Complete legal review",
+            "owner": "@Jordan",
+            "due_date": "2025-08-07"
+          },
+          {
+            "task": "Draft brand voice guidelines",
+            "owner": "@Leah",
+            "due_date": "2025-06-26"
+          },
+          {
+            "task": "Provide at least 3 logo variations with distinct elements for the trademark search",
+            "owner": "@Sam",
+            "due_date": "2025-08-07"
+          },
+          {
+            "task": "Have first round of designs ready for review",
+            "owner": "@Sam",
+            "due_date": "2025-07-05"
+          }
+        ],
+        "channel": "#campaign-briefs",
+        "messages": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "thread_root": 14,
+        "deadline": "2025-08-15",
+        "tags": [
+          "rebranding",
+          "client",
+          "FitFusion",
+          "urgent"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      },
+      {
+        "id": "topic_003",
+        "title": "TechNova Product Launch",
+        "participants": [
+          "@Devon",
+          "@Sam",
+          "@Leah",
+          "@Jordan"
+        ],
+        "summary": "Discussion about the TechNova product launch, including marketing campaign planning, design development, product messaging, and legal compliance.",
+        "action_items": [
+          {
+            "task": "Product messaging framework",
+            "owner": "@Leah",
+            "due_date": "2025-07-22"
+          },
+          {
+            "task": "Design development",
+            "owner": "@Sam",
+            "due_date": "2025-08-12"
+          },
+          {
+            "task": "Provide all marketing materials for legal review",
+            "owner": "@Sam",
+            "due_date": "2025-08-26"
+          },
+          {
+            "task": "Complete legal review",
+            "owner": "@Jordan",
+            "due_date": "2025-09-02"
+          },
+          {
+            "task": "Draft the product description and key messaging points",
+            "owner": "@Leah",
+            "due_date": "2025-07-08"
+          },
+          {
+            "task": "Provide detailed specifications for all claims",
+            "owner": "@Sam",
+            "due_date": "2025-09-02"
+          },
+          {
+            "task": "Have first round of designs ready for review",
+            "owner": "@Sam",
+            "due_date": "2025-08-05"
+          }
+        ],
+        "channel": "#campaign-briefs",
+        "messages": [
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "thread_root": 29,
+        "deadline": "2025-09-10",
+        "tags": [
+          "product launch",
+          "client",
+          "TechNova",
+          "smart home device"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      },
+      {
+        "id": "topic_004",
+        "title": "GreenScape Sustainability Report",
+        "participants": [
+          "@Devon",
+          "@Leah",
+          "@Sam",
+          "@Jordan"
+        ],
+        "summary": "Discussion about GreenScape's annual sustainability report, including data collection, content creation, design, and compliance with reporting standards.",
+        "action_items": [
+          {
+            "task": "Draft the content",
+            "owner": "@Leah",
+            "due_date": "2025-07-05"
+          },
+          {
+            "task": "Final version of content",
+            "owner": "@Leah",
+            "due_date": "2025-08-10"
+          },
+          {
+            "task": "Complete the design and data visualization",
+            "owner": "@Sam",
+            "due_date": "2025-08-30"
+          }
+        ],
+        "channel": "#client-communications",
+        "messages": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "thread_root": 44,
+        "deadline": "2025-08-30",
+        "tags": [
+          "sustainability",
+          "client",
+          "GreenScape",
+          "report"
+        ],
+        "status": "in progress",
+        "urgency": "high"
+      }
+    ],
+    "json_valid": true,
+    "topics_found": 4,
+    "duration": 10.361467599868774,
+    "timestamp": 1755744394.3613808
+  }
+}

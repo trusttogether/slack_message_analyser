@@ -1,0 +1,9 @@
+{
+  "provider": "anthropic",
+  "model": "claude-3-haiku-20240307",
+  "response": "Error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CSJE4DfRe4JW94rSMKTHY'}",
+  "parsed_response": "Error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CSJE4DfRe4JW94rSMKTHY'}",
+  "json_valid": false,
+  "duration": 0.19762468338012695,
+  "timestamp": 1755659324.4793525
+}

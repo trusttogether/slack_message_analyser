@@ -1,0 +1,12 @@
+Analyze these Slack messages and group into topics. Return JSON:
+[
+  {
+    "summary": "brief topic summary",
+    "thread_ids": ["thread_id"],
+    "participants": ["username"],
+    "actions": [{"description": "action", "owner": "person"}]
+  }
+]
+
+Messages:
+{messages}

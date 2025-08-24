@@ -1,0 +1,154 @@
+{
+  "provider": "google",
+  "model": "gemini-1.5-pro",
+  "response": "```json\n[\n  {\n    \"summary\": \"EcoBloom summer campaign planning and execution. Kickoff meeting held, deliverables assigned, and deadlines established. Content due June 30, designs due July 10 for client review by July 14 and final deadline July 28.\",\n    \"thread_ids\": [\"thread_001\"],\n    \"participants\": [\"Devon\", \"Sam\", \"Leah\", \"Jordan\"],\n    \"actions\": [\n      {\"description\": \"Provide initial content by June 30, 2025\", \"owner\": \"Leah\"},\n      {\"description\": \"Provide initial designs by June 25, 2025\", \"owner\": \"Sam\"},\n      {\"description\": \"Provide final designs by July 10, 2025\", \"owner\": \"Sam\"},\n      {\"description\": \"Complete legal review of marketing materials by July 14, 2025\", \"owner\": \"Jordan\"},\n      {\"description\": \"Deliver all marketing materials by July 7, 2025\", \"owner\": \"team\"}\n    ]\n  },\n  {\n    \"summary\": \"FitFusion rebranding project kickoff and planning.  Deadlines and deliverables discussed. Content due July 2, designs due July 5 for legal review by July 30, and final deadline August 15.\",\n    \"thread_ids\": [\"thread_002\"],\n    \"participants\": [\"Devon\", \"Sam\", \"Leah\", \"Jordan\"],\n    \"actions\": [\n      {\"description\": \"Provide brand messaging framework by July 2, 2025\", \"owner\": \"Leah\"},\n      {\"description\": \"Provide initial designs by July 5, 2025\", \"owner\": \"Sam\"},\n      {\"description\": \"Provide at least 3 logo variations by July 30, 2025\", \"owner\": \"Sam\"},      \n      {\"description\": \"Complete legal review of branding materials by August 7, 2025\", \"owner\": \"Jordan\"},\n      {\"description\": \"Deliver all branding materials by July 30, 2025\", \"owner\": \"team\"},\n      {\"description\": \"Provide brand voice guidelines by June 26, 2025\", \"owner\": \"Leah\"}\n\n    ]\n  },\n  {\n    \"summary\": \"TechNova new product launch campaign planning. Initial discussions and deadlines set. Product messaging due July 8, designs due August 5 for legal review by August 26, and final deadline September 10.\",\n    \"thread_ids\": [\"thread_003\"],\n    \"participants\": [\"Devon\", \"Sam\", \"Leah\", \"Jordan\"],\n    \"actions\": [\n      {\"description\": \"Provide product messaging framework by July 22, 2025\", \"owner\": \"Leah\"},\n      {\"description\": \"Provide initial designs by August 5, 2025\", \"owner\": \"Sam\"},\n      {\"description\": \"Deliver product packaging and promotional materials by August 26, 2025\", \"owner\": \"Sam\"},\n      {\"description\": \"Complete legal review of marketing materials by September 2, 2025\", \"owner\": \"Jordan\"},\n      {\"description\": \"Deliver all marketing materials by August 26, 2025\", \"owner\": \"team\"},\n      {\"description\": \"Provide product description and key messaging points by July 8, 2025\", \"owner\": \"Leah\"}\n    ]\n  },\n  {\n    \"summary\": \"GreenScape annual sustainability report project kickoff and planning. Data received, content due July 5, design due August 10, and final deadline August 30.\",\n    \"thread_ids\": [\"thread_004\"],\n    \"participants\": [\"Devon\", \"Sam\", \"Leah\", \"Jordan\"],\n    \"actions\": [\n      {\"description\": \"Prepare questions for GreenScape client call\", \"owner\": \"Leah\"},\n      {\"description\": \"Research GreenScape's previous reports\", \"owner\": \"Leah\"},\n      {\"description\": \"Start drafting the report content by July 5, 2025\", \"owner\": \"Leah\"},\n      {\"description\": \"Complete the design and data visualization by August 10, 2025\", \"owner\": \"Sam\"},\n      {\"description\": \"Review GreenScape's sustainability reporting requirements\", \"owner\": \"Jordan\"}\n    ]\n  }\n]\n```\n",
+  "parsed_response": [
+    {
+      "summary": "EcoBloom summer campaign planning and execution. Kickoff meeting held, deliverables assigned, and deadlines established. Content due June 30, designs due July 10 for client review by July 14 and final deadline July 28.",
+      "thread_ids": [
+        "thread_001"
+      ],
+      "participants": [
+        "Devon",
+        "Sam",
+        "Leah",
+        "Jordan"
+      ],
+      "actions": [
+        {
+          "description": "Provide initial content by June 30, 2025",
+          "owner": "Leah"
+        },
+        {
+          "description": "Provide initial designs by June 25, 2025",
+          "owner": "Sam"
+        },
+        {
+          "description": "Provide final designs by July 10, 2025",
+          "owner": "Sam"
+        },
+        {
+          "description": "Complete legal review of marketing materials by July 14, 2025",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Deliver all marketing materials by July 7, 2025",
+          "owner": "team"
+        }
+      ]
+    },
+    {
+      "summary": "FitFusion rebranding project kickoff and planning.  Deadlines and deliverables discussed. Content due July 2, designs due July 5 for legal review by July 30, and final deadline August 15.",
+      "thread_ids": [
+        "thread_002"
+      ],
+      "participants": [
+        "Devon",
+        "Sam",
+        "Leah",
+        "Jordan"
+      ],
+      "actions": [
+        {
+          "description": "Provide brand messaging framework by July 2, 2025",
+          "owner": "Leah"
+        },
+        {
+          "description": "Provide initial designs by July 5, 2025",
+          "owner": "Sam"
+        },
+        {
+          "description": "Provide at least 3 logo variations by July 30, 2025",
+          "owner": "Sam"
+        },
+        {
+          "description": "Complete legal review of branding materials by August 7, 2025",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Deliver all branding materials by July 30, 2025",
+          "owner": "team"
+        },
+        {
+          "description": "Provide brand voice guidelines by June 26, 2025",
+          "owner": "Leah"
+        }
+      ]
+    },
+    {
+      "summary": "TechNova new product launch campaign planning. Initial discussions and deadlines set. Product messaging due July 8, designs due August 5 for legal review by August 26, and final deadline September 10.",
+      "thread_ids": [
+        "thread_003"
+      ],
+      "participants": [
+        "Devon",
+        "Sam",
+        "Leah",
+        "Jordan"
+      ],
+      "actions": [
+        {
+          "description": "Provide product messaging framework by July 22, 2025",
+          "owner": "Leah"
+        },
+        {
+          "description": "Provide initial designs by August 5, 2025",
+          "owner": "Sam"
+        },
+        {
+          "description": "Deliver product packaging and promotional materials by August 26, 2025",
+          "owner": "Sam"
+        },
+        {
+          "description": "Complete legal review of marketing materials by September 2, 2025",
+          "owner": "Jordan"
+        },
+        {
+          "description": "Deliver all marketing materials by August 26, 2025",
+          "owner": "team"
+        },
+        {
+          "description": "Provide product description and key messaging points by July 8, 2025",
+          "owner": "Leah"
+        }
+      ]
+    },
+    {
+      "summary": "GreenScape annual sustainability report project kickoff and planning. Data received, content due July 5, design due August 10, and final deadline August 30.",
+      "thread_ids": [
+        "thread_004"
+      ],
+      "participants": [
+        "Devon",
+        "Sam",
+        "Leah",
+        "Jordan"
+      ],
+      "actions": [
+        {
+          "description": "Prepare questions for GreenScape client call",
+          "owner": "Leah"
+        },
+        {
+          "description": "Research GreenScape's previous reports",
+          "owner": "Leah"
+        },
+        {
+          "description": "Start drafting the report content by July 5, 2025",
+          "owner": "Leah"
+        },
+        {
+          "description": "Complete the design and data visualization by August 10, 2025",
+          "owner": "Sam"
+        },
+        {
+          "description": "Review GreenScape's sustainability reporting requirements",
+          "owner": "Jordan"
+        }
+      ]
+    }
+  ],
+  "json_valid": true,
+  "duration": 14.714868545532227,
+  "timestamp": 1755698148.5003104
+}
